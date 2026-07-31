@@ -30,4 +30,4 @@
 
 仓库内 `checksums/` 保存当前候选版本的 SHA-256 侧车文件，Release 中的同名侧车文件才是每个发布版本的权威校验值。
 
-当前源码安全修订：`v0.3.0-rc.1`（主仓来源已更新）。Windows 包正在等待 Windows runner 重新构建、严格 preflight 与包 smoke 验证；在新的 Release 资产出现前，请不要把现有 ZIP/校验文件视为这次安全修订的交付物。
+当前源码安全修订：`v0.3.0-rc.3`（主仓来源已更新，Windows CI 全绿）。Windows 包正在等待 Windows runner 重新构建、严格 preflight 与包 smoke 验证；在新的 Release 资产出现前，请不要把现有 ZIP/校验文件视为该安全修订的交付物。

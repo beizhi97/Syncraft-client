@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "releaseTag": "v0.3.0-rc.3",
+  "version": "0.3.0-rc.3",
+  "sourceRepository": "beizhi97/Syncraft",
+  "sourceCommit": "77890bd5d3b0878444fd573c0f84eb7c63f136e5",
+  "publicationStatus": "pending_windows_build",
+  "packageAssets": [],
+  "note": "Source baseline for v0.3.0-rc.3 is security-hardened and Windows CI green. Desktop/portable ZIPs must still be built and strictly preflight-verified on a Windows runner before Release assets and checksum authority are updated.",
+  "generatedAt": "2026-07-31T03:19:05.357Z"
+}
