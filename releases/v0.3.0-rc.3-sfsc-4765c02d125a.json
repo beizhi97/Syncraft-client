@@ -1,0 +1,3904 @@
+{
+  "schemaVersion": 1,
+  "releaseTag": "v0.3.0-rc.3-sfsc-4765c02d125a",
+  "version": "0.3.0-rc.3",
+  "sourceRepository": "beizhi97/Syncraft",
+  "sourceCommit": "1c5029fe244ee814efb5c4dfe4a598951c0a9090",
+  "buildId": "sfsc-4765c02d125a",
+  "sourceTreeHash": "4765c02d125a54861f7e467e127b401a22548ad9ecb10583f44cffc3116c8822",
+  "publicationStatus": "published",
+  "protocolVersions": null,
+  "packages": {
+    "desktop": {
+      "schemaVersion": 1,
+      "app": "singbox-folder-sync",
+      "package": "SyncraftDesktop",
+      "version": "0.3.0-rc.3",
+      "builtAt": "2026-11-07T11:27:32.5302223Z",
+      "sourceTreeHash": "4765c02d125a54861f7e467e127b401a22548ad9ecb10583f44cffc3116c8822",
+      "buildId": "sfsc-4765c02d125a",
+      "sourceFingerprint": {
+        "algorithm": "sfsc-source-tree-sha256-v1",
+        "hash": "4765c02d125a54861f7e467e127b401a22548ad9ecb10583f44cffc3116c8822",
+        "buildId": "sfsc-4765c02d125a",
+        "fileCount": 348,
+        "inputs": [
+          {
+            "path": "client/electron/main.cjs",
+            "size": 12458,
+            "sha256": "29145feb02c9fccfc9ff95870f041fc55104af271f2ba841468448b1d5f3939f"
+          },
+          {
+            "path": "client/electron/package.json",
+            "size": 98,
+            "sha256": "63e46a0797eb86cb496efb2cb90b72c384d85ffaa08cb1122dd9cd12105f4ceb"
+          },
+          {
+            "path": "client/electron/preload.cjs",
+            "size": 173,
+            "sha256": "0c9f71409c442b4640265235f022456e2d1a30c218e0d78084d69098449dcc4a"
+          },
+          {
+            "path": "client/public/app.js",
+            "size": 133924,
+            "sha256": "7ee69d59f60cd46ecc0ced12305689ec65db5f39c523e976ab28498d7df56d75"
+          },
+          {
+            "path": "client/public/index.html",
+            "size": 23684,
+            "sha256": "71b9e474062575de8ad3f216e6780e086ed0bee3fb0257443e40e724f9444abb"
+          },
+          {
+            "path": "client/public/styles.css",
+            "size": 26523,
+            "sha256": "0a5d33108a5e7555bbb902dd5603cea6079bca1e0885086625e8a82e42490a84"
+          },
+          {
+            "path": "client/resources/bin/win32/binaries.lock.json",
+            "size": 643,
+            "sha256": "2628eb8458be22d24ac1e1c45a494b88578d34ee94bfafbc29e62951b8070af7"
+          },
+          {
+            "path": "client/scripts/build-client.ps1",
+            "size": 11952,
+            "sha256": "f39b261d6527adc11527913620e9ea9ad1ae68df0e20d24237bcfa7fe019a1c9"
+          },
+          {
+            "path": "client/scripts/build-desktop.ps1",
+            "size": 11683,
+            "sha256": "1a3bece818a0c9250caf26df6b748be9b3ab59046c1dcb83e44ae242edd4693c"
+          },
+          {
+            "path": "client/scripts/download-binaries.ps1",
+            "size": 6382,
+            "sha256": "cc6b4eba2649f8b0a9c7c9b1a96586f7abd580d5a4afcc02796d9ebc7a2ab1c1"
+          },
+          {
+            "path": "client/src/bootstrapTransport.js",
+            "size": 8273,
+            "sha256": "6c6725de6e846a5e2f35914de97a3f96047a88749ea15d0f4fc33541055f4125"
+          },
+          {
+            "path": "client/src/clientServer.js",
+            "size": 177051,
+            "sha256": "696402db7bc84c011b3af49d72542d3612d7d791bde7b94aa4a95b617966081b"
+          },
+          {
+            "path": "client/src/connectionRepair.js",
+            "size": 10517,
+            "sha256": "0fbe2ae1e93450e6f757ef7dc238f6b8c668b8b8c57bdda95cb7633143aaa698"
+          },
+          {
+            "path": "client/src/diagnosticBundle.js",
+            "size": 19918,
+            "sha256": "2e3f022381bcc83d227525b54db0e7ca4a2c2d25e2b3a903c84d2eac3f2e7fe8"
+          },
+          {
+            "path": "client/src/enrollmentDiagnostics.js",
+            "size": 1784,
+            "sha256": "950679b3feae0af38ee43344a84421735c33d643ea7058d9dbf8ac1e3bc81883"
+          },
+          {
+            "path": "client/src/enrollmentRelation.js",
+            "size": 13753,
+            "sha256": "1aa1756f1a178c31162f2444092e48060035d7025696e886e4bb5cf0579eabe9"
+          },
+          {
+            "path": "client/src/enrollmentSession.js",
+            "size": 19060,
+            "sha256": "0c8ace0ad3d80b3de87fdb2583959a7568ea4651708ecdcb5bb8820078696a52"
+          },
+          {
+            "path": "client/src/firstBisyncConflict.js",
+            "size": 30191,
+            "sha256": "24a836f7a1500e03b5a0af03773706a98eb6fa0cf80fd9f930b7dab62c37152d"
+          },
+          {
+            "path": "client/src/launcher.cjs",
+            "size": 2344,
+            "sha256": "3b7ac50d7330671e96db7a6b83bdc6cc44c2ce0e2d54c55a0a0b4853945aa45e"
+          },
+          {
+            "path": "client/src/Launcher.cs",
+            "size": 6395,
+            "sha256": "5ea11de3b76e239e777140e3682cf7d2da32d4c6ec353b8559d572adec678f30"
+          },
+          {
+            "path": "client/src/paths.js",
+            "size": 8248,
+            "sha256": "acd39c3a32deb83c81735ac1b852060ce95fd43e98e1a452f490a9f74b953273"
+          },
+          {
+            "path": "client/src/processRunner.js",
+            "size": 11435,
+            "sha256": "ea287ab5365fdce3c7a574609f090e7738f12af7a094d085be69b59ead78384f"
+          },
+          {
+            "path": "client/src/profileImport.js",
+            "size": 8505,
+            "sha256": "e273a4da91dceb8a5162e9de20d7d61c971482c12bb29a8940fef8650934129f"
+          },
+          {
+            "path": "client/src/rcloneStats.js",
+            "size": 9879,
+            "sha256": "4c912fe598ae573511dbd23e91ca46a65a7d333a43e889e02e946f4d05b1c074"
+          },
+          {
+            "path": "client/src/sftpAccessMarker.js",
+            "size": 5228,
+            "sha256": "677debae755aafc86012f660d5e87b56c9722d0c8521eae860291b337d878a80"
+          },
+          {
+            "path": "client/src/store.js",
+            "size": 31398,
+            "sha256": "79359cb273c2b49df65d8dde39253235ad7c6d736bb9add3cb41ce9f22f2033b"
+          },
+          {
+            "path": "client/src/syncRecovery.js",
+            "size": 49055,
+            "sha256": "f8e8eb1313fd852007d0b27b6bf6f2b7b8bbebc4e1f9effc09fd5effa64bd5f7"
+          },
+          {
+            "path": "client/src/syncRelation.js",
+            "size": 33230,
+            "sha256": "925fb6e3bb2b12eb607a402e0acfb0fed46effafa1dab6e0934597b1b7c68111"
+          },
+          {
+            "path": "docs/API_MATRIX.md",
+            "size": 30366,
+            "sha256": "7a0739bc7fbd648eb7edfeb072a9bf9c1e5513b963cca0a17ae504dece95a9b9"
+          },
+          {
+            "path": "docs/ARCHITECTURE_REVIEW_2026-09-16.md",
+            "size": 16306,
+            "sha256": "3a2e7a90bd3bbd984cfcad6b3e34526469895704e7989bed84c6670dfd896161"
+          },
+          {
+            "path": "docs/BETA_BUGFIX_PLAN.md",
+            "size": 20408,
+            "sha256": "67d809892544ee348041022add324754eb347eea15f237c93d37f0607e2a92f5"
+          },
+          {
+            "path": "docs/BETA_RELEASE_NOTES_0.2.0-beta.2.md",
+            "size": 2057,
+            "sha256": "124f96b14ef25a84301475275c3ea11fd85e9d8bfc6380765618ed1b17a59097"
+          },
+          {
+            "path": "docs/client-design.md",
+            "size": 21110,
+            "sha256": "6e9ac67c66fa72324f7be06e01236f9799f78641635609fde3eab9b314fe6d7b"
+          },
+          {
+            "path": "docs/DELIVERY_REPOSITORIES.md",
+            "size": 5440,
+            "sha256": "d2c7830eda995594a24cf2564ce30b2885363947faee762dc4919e68007c8aba"
+          },
+          {
+            "path": "docs/DEPLOYMENT_AND_MIGRATION_GUIDE.md",
+            "size": 49877,
+            "sha256": "6136feaf4031c0f62a821dd90f9378947114bee11efd64c281587e1c7f378757"
+          },
+          {
+            "path": "docs/DEVELOPMENT_EXECUTION_2026-10-19.md",
+            "size": 426728,
+            "sha256": "1ec47422b3c156b72171305bbf6cce97d3f3c2cd2751bf319fae1936180cbc7f"
+          },
+          {
+            "path": "docs/DEVELOPMENT_PLAN_2026-10-19.md",
+            "size": 37108,
+            "sha256": "26d314472e835d5fdd0c479f533a29fec56f73259102e0880ebb480b08980524"
+          },
+          {
+            "path": "docs/DIRECTORY_ROOT_CONTRACT.md",
+            "size": 11805,
+            "sha256": "2d50703d27bbc788238f4f28ffa370fcbb6ae8fd4ee857e2794dec08be34444c"
+          },
+          {
+            "path": "docs/handover/api-spec.md",
+            "size": 498,
+            "sha256": "0bb824618b9c357f4817d3b054d898b6d82f4f509cd4b7849de1c3db64b7be7a"
+          },
+          {
+            "path": "docs/handover/deployment-guide.md",
+            "size": 467,
+            "sha256": "8e11183870b7296dbba6badc0ab6d592bc5be3f7ed67fbf06513aec45235bf21"
+          },
+          {
+            "path": "docs/handover/migration-checklist.md",
+            "size": 497,
+            "sha256": "56821312a232ffa19ac0b0d22561c02a0cb6c5f643ce715c09490b135b4c045b"
+          },
+          {
+            "path": "docs/handover/operations-runbook.md",
+            "size": 512,
+            "sha256": "684e875f8620cc60caeceb76272b9c96edc9f33d311a17edd7bf1588a3d877dd"
+          },
+          {
+            "path": "docs/handover/README.md",
+            "size": 822,
+            "sha256": "554d701b2f853bbfeb40910b9299c117b3b106c36ebfb9c08931c286b8e20e60"
+          },
+          {
+            "path": "docs/handover/release-notes.md",
+            "size": 475,
+            "sha256": "2143d60c6ade457cb5f7c9defe5a2707babe9628422b18104962998385dfe992"
+          },
+          {
+            "path": "docs/handover/software-design-spec.md",
+            "size": 529,
+            "sha256": "95372b6a9dd0e5685ac37ecc3211b0fc64bf1e8dff1b636d2de9037b41c3c978"
+          },
+          {
+            "path": "docs/images/client-first-run.png",
+            "size": 29258,
+            "sha256": "2627fe87e78449c2f163bf5c86f4f273df456ffa987316da2dda6c44341f3e7f"
+          },
+          {
+            "path": "docs/images/client-settings-import.png",
+            "size": 17628,
+            "sha256": "7b5d11ae2aeffcbaeb0ce41880df047f0c0a43478beac4e31d847976d38d15c9"
+          },
+          {
+            "path": "docs/images/client-task-setup.png",
+            "size": 70017,
+            "sha256": "0c4e5dae0e8ef282a19438af4432947055da3d73e22b0fed7524bf1bcffa612b"
+          },
+          {
+            "path": "docs/images/README.md",
+            "size": 2890,
+            "sha256": "d89801a92b83215c8dfa3aa3441cdad453ce714f66d4906b8fd9ac97f6d9eb98"
+          },
+          {
+            "path": "docs/INTERFACE_CONTRACT.md",
+            "size": 211267,
+            "sha256": "3604916470f17ca1c31b4e761a92e6e79a23a264a781cd068236192a7ae798e7"
+          },
+          {
+            "path": "docs/INTERNAL_TRIAL_CHECKLIST.md",
+            "size": 14568,
+            "sha256": "44c18d8187630295217cc42a4081e49b35eb3c8c6c82a3f5cc4144a279cb7447"
+          },
+          {
+            "path": "docs/N1_SMOKE_REPORT.md",
+            "size": 5949,
+            "sha256": "a15b152b43e4cf2aa9b798b300c6d490e9eaf3694dbfc916105076cd4a3ea452"
+          },
+          {
+            "path": "docs/P2_DIRECTORY_ADAPTER_DECISION_2026-10-20.md",
+            "size": 14080,
+            "sha256": "02a41256fe151ab8f2eb6949f40f5b2b67d9f53a4360738989e219342d11f89b"
+          },
+          {
+            "path": "docs/P2_PRODUCT_WIRING_DECISION_2026-10-23.md",
+            "size": 7503,
+            "sha256": "5905d6fed0a58ab3e040ce9353fa4b7e3ffeff2b25562bb4ac56f63b2763819f"
+          },
+          {
+            "path": "docs/P2_RUNTIME_ADAPTER_CONTRACT.md",
+            "size": 16556,
+            "sha256": "3d5208ad42e7ad734965b99b3b22fc6c4e8dc310cc8ed69633fb1be36e21f5ab"
+          },
+          {
+            "path": "docs/P2_SFTP_RELATION_SERVICE_CONTRACT.md",
+            "size": 20047,
+            "sha256": "ea72d8113f272e455620de33256df37beb8253c442a13fe879e18b3995852fe9"
+          },
+          {
+            "path": "docs/PILOT_ACCEPTANCE_CRITERIA.md",
+            "size": 5352,
+            "sha256": "3cb619061d86b23424978f5e2dfa646f6e9fc3d8235c4556f3f155dd9379b1bb"
+          },
+          {
+            "path": "docs/PILOT_RUNBOOK.md",
+            "size": 8587,
+            "sha256": "1b7375d849b25d81b37bce7ea02df39f312f126d815d56ccc9f6105aa13754fc"
+          },
+          {
+            "path": "docs/PILOT_SUPPORT_GUIDE.md",
+            "size": 4266,
+            "sha256": "067e48d9ce1e7ccfef10e160d67d17c237af0a5526070ec4ed63a8c1a3413dab"
+          },
+          {
+            "path": "docs/PRODUCT_LOGIC_UI_REDESIGN_PLAN.md",
+            "size": 31479,
+            "sha256": "a876637829efef36149f5c0b59885d6025455f0f6ff45770bdd7cf17507eb149"
+          },
+          {
+            "path": "docs/PRODUCTIZATION_ROADMAP.md",
+            "size": 8483,
+            "sha256": "52f91b6acf4d010f95c294a94d148f2d5569177cdb057af70827c2c895b277cb"
+          },
+          {
+            "path": "docs/PROJECT_HANDOFF.md",
+            "size": 13505,
+            "sha256": "c1c1f33f5e43cf21454216f714cf775b8e840e4b9331f05cc535f7c83c01ad7e"
+          },
+          {
+            "path": "docs/protocol/00-http-basics.md",
+            "size": 2989,
+            "sha256": "9d81ac9784f8e1dea22898eb3d41b4927ee8060334c8017d479f2086d3922534"
+          },
+          {
+            "path": "docs/protocol/01-error-codes.md",
+            "size": 2131,
+            "sha256": "413ab611e9035801acd71960a8dc940cc2036c926bcc61bf063617b301b57bec"
+          },
+          {
+            "path": "docs/protocol/02-heartbeat-device-sync.md",
+            "size": 2827,
+            "sha256": "dbf3b938db6cf017cab98ee0c654d2c06101175e53159bc03fa72ddea1403890"
+          },
+          {
+            "path": "docs/protocol/03-diagnostic-bundle.md",
+            "size": 2668,
+            "sha256": "14b04db274985c094c3799d0455287c0467ab928fd7d372634fb5c7ccef85616"
+          },
+          {
+            "path": "docs/protocol/04-claim-lifecycle.md",
+            "size": 3969,
+            "sha256": "46763d7a3a35ec409bebccfc8c5e313a00b2989ab1c93240f5faa42ab58328bb"
+          },
+          {
+            "path": "docs/protocol/05-profile-import.md",
+            "size": 3714,
+            "sha256": "cca70be0ec84545369500dac0087b6cfeeb82317584b0a4df13f41f88bf26f01"
+          },
+          {
+            "path": "docs/protocol/06-runtime-diagnostics.md",
+            "size": 3573,
+            "sha256": "61e86a40470c0914e052484dabd977ada853bbea2a17953ecffac9ddd1fd165e"
+          },
+          {
+            "path": "docs/protocol/07-enrollment-v1.md",
+            "size": 21843,
+            "sha256": "0c36396881a178e8ce78c6f0c053b0f6d0f224249c890163ea7076368cd88e32"
+          },
+          {
+            "path": "docs/protocol/PROTOCOL_V1_BASELINE.md",
+            "size": 2401,
+            "sha256": "358d2d87721fca562293e8c67c074d1c12af4617b8eb12ce7ea05bb857e9e1e6"
+          },
+          {
+            "path": "docs/protocol/README.md",
+            "size": 3785,
+            "sha256": "9fa49e15a1526db66570be169436841c706fa19f97a87e1671ff915f29b3e928"
+          },
+          {
+            "path": "docs/protocol/schemas/claim-lifecycle.json",
+            "size": 709,
+            "sha256": "b198fa61e62814979d18b71b818acfdec6e4e75ab5f878bb2fc7a279c9d7e5c5"
+          },
+          {
+            "path": "docs/protocol/schemas/diagnostic-bundle.json",
+            "size": 2019,
+            "sha256": "55a364b13540b1b5d5e054650703bd1eee82742786d21392aaceef52c3ad561b"
+          },
+          {
+            "path": "docs/protocol/schemas/error-codes.json",
+            "size": 13805,
+            "sha256": "05c6194047c167ed64c2b7fa995da893efd6fdc665166f3983629e3c6104ff4c"
+          },
+          {
+            "path": "docs/protocol/schemas/heartbeat-device-sync.json",
+            "size": 1261,
+            "sha256": "f968a2dc4a80fadd29b7f1cecd1de74be17b9008e3b5a55494934eae11696330"
+          },
+          {
+            "path": "docs/protocol/schemas/http-basics.json",
+            "size": 1233,
+            "sha256": "03eb83db9075591ee154f87a975e28412bb87ddd3008d50d71cd8b22321f408b"
+          },
+          {
+            "path": "docs/protocol/schemas/profile-import.json",
+            "size": 1297,
+            "sha256": "3733cef9b516c80238bfbf8593b0859f8250466a7cc87ea58b67bec12de48ccb"
+          },
+          {
+            "path": "docs/protocol/schemas/protocol-v1-baseline.json",
+            "size": 888,
+            "sha256": "1e92cd2529f722c49c87033a225c38e7f54c770dc90e11423b40591469691840"
+          },
+          {
+            "path": "docs/protocol/schemas/runtime-diagnostics.json",
+            "size": 1482,
+            "sha256": "3cc72a57ee6b54e422c47ffddd846c72dadbfcfba80900317150bad964e667c9"
+          },
+          {
+            "path": "docs/server-design.md",
+            "size": 4604,
+            "sha256": "8c946b47d2b78fdff01ed3ee9e38be0f082445a1bc7462dbed4055064586f081"
+          },
+          {
+            "path": "docs/SFTP_ADAPTER_PROBE_2026-10-19.md",
+            "size": 11916,
+            "sha256": "631033029d72a67e351df98d4a1b53c2a8b7234c7ba023d9e78519041798a43a"
+          },
+          {
+            "path": "docs/SOFTWARE_DESIGN_SPEC.md",
+            "size": 29496,
+            "sha256": "3bb14dcbc1b6418c671dd73594c7fb52b93ef3fcfaf0e58958bfc80d91982986"
+          },
+          {
+            "path": "docs/SYNC_ID_PRODUCT_REQUIREMENT.md",
+            "size": 5365,
+            "sha256": "477ec308530df7bfdb7d8f79acc8d9fbf86683b569a468936325d4e1df635100"
+          },
+          {
+            "path": "docs/SYNC_ID_SECURITY_IMPLEMENTATION_PLAN.md",
+            "size": 8407,
+            "sha256": "53b76c6f0f29aa7c612604cb830e8d6211a7a5f6aaf2dce1033c27acf1a61485"
+          },
+          {
+            "path": "docs/T_KEY_PROTOCOL.md",
+            "size": 9178,
+            "sha256": "8bafc04da9a23d9b2d155882b9877162283e5b0b3bfe771954b3510ceaf497b5"
+          },
+          {
+            "path": "docs/V04_DESIGN_REVIEW.md",
+            "size": 9611,
+            "sha256": "5fdf189440c5bb1dec4bc3ab4e1cad3bcb06d7079aff257ee695da83ac30b6e5"
+          },
+          {
+            "path": "docs/WEBDAV_ADAPTER_PROBE_2026-10-19.md",
+            "size": 10366,
+            "sha256": "8ab880d757d3173e284a01171ae616c2bdf7e453d38d6a2a8284a70a5cc39d54"
+          },
+          {
+            "path": "native/sfsc-owner-lock-addon/binding.gyp",
+            "size": 370,
+            "sha256": "446192dbab91417934947670a224cac395c4c00c9eb8cc228755b972b41efe68"
+          },
+          {
+            "path": "native/sfsc-owner-lock-addon/src/owner_lock.cc",
+            "size": 39729,
+            "sha256": "6d5eab14221eca76c4356b20690cce2ce4fdd9db1f71acdd31609598ca9b9ca2"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/child_linux.go",
+            "size": 16469,
+            "sha256": "ef75ac1e05ce7985e7558eeb9743c6f4dc506f98ec2c964f26c1d313173fd033"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/main_linux.go",
+            "size": 36666,
+            "sha256": "19ebfcf27b77d179c86cecd1b98d1f0a309be9a10f4e816a739c59648a9e9a91"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/proc_linux.go",
+            "size": 20779,
+            "sha256": "ead63553b5686f0c51873e2c3e4c757e9d4bdce065002d9d570ddc30877d6bed"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/supervisor_linux_test.go",
+            "size": 27401,
+            "sha256": "5d638f7c2fab52392cf9ab415d04c8644a6c3b4bff912b2228dafe8b674a7a86"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_linux.go",
+            "size": 41478,
+            "sha256": "909f94bbb14dd4c768ee0ae2534664144803e3d3a62861d1cde0fce29c3f861a"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_linux_test.go",
+            "size": 67415,
+            "sha256": "f00a3066b40b752f603461eb42068dad9927691a984bc630a47700952d77f608"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_v2_linux.go",
+            "size": 9375,
+            "sha256": "a38a32ce1496df08d465ad5ae223f20b8ca4f161b4d1e97b3fff7f5eb4fb6afb"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_v2_linux_test.go",
+            "size": 5869,
+            "sha256": "97591ed9e4a4ea919ca0605f94f45004a19cf398a25ea554e803ce4e236db445"
+          },
+          {
+            "path": "native/sfsc-root-guard/main_linux.go",
+            "size": 17449,
+            "sha256": "b7f112eac79b39a1be25c0ddf56a768c395d73b34a3068a8aab757f0b2be425f"
+          },
+          {
+            "path": "native/sfsc-root-guard/main_linux_test.go",
+            "size": 13168,
+            "sha256": "a2f477cc3cbe32c8e038ceae19b460f597421b3b6e7bf6b32a194df648e779cd"
+          },
+          {
+            "path": "native/sfsc-root-guard/signal_service_linux.go",
+            "size": 43631,
+            "sha256": "473ca14115af79b1bd19bb5667ea6c0dacf7f982c5a5d236d463bde32f5063df"
+          },
+          {
+            "path": "native/sfsc-root-guard/signal_service_linux_test.go",
+            "size": 84987,
+            "sha256": "7686b17a58a05c7a0d47a1fd50ca18779dc03f307f027300abe20c59e47d17d6"
+          },
+          {
+            "path": "native/sfsc-sftp-service/filetime_linux.go",
+            "size": 657,
+            "sha256": "9254806c7398ea359c736f6142eeaa55155fb5f55bd639024de450434110624c"
+          },
+          {
+            "path": "native/sfsc-sftp-service/filetime_windows.go",
+            "size": 839,
+            "sha256": "29360c47e5af8100f6385845e806153d0bf0b80470d987674a54263568ab29ae"
+          },
+          {
+            "path": "native/sfsc-sftp-service/go.mod",
+            "size": 215,
+            "sha256": "0d3a4466e0ac7a6b3f280bfb0c608a0f2daf090839671719444d8dd4eb44b941"
+          },
+          {
+            "path": "native/sfsc-sftp-service/go.sum",
+            "size": 1453,
+            "sha256": "978cac36790a626ddb27f51bdd6529a9c47e9e00c45b75c53b6c7f38a3f2b40b"
+          },
+          {
+            "path": "native/sfsc-sftp-service/hardlink_linux.go",
+            "size": 396,
+            "sha256": "9417753fc3c1124276192719fa25cb7df553532114a892bb46dc8f2ba4c1bf3f"
+          },
+          {
+            "path": "native/sfsc-sftp-service/hardlink_windows.go",
+            "size": 408,
+            "sha256": "9ae409b811ac872b22865a31bc93520f0cba7e77ed1d77966319486489f99a0e"
+          },
+          {
+            "path": "native/sfsc-sftp-service/main.go",
+            "size": 18268,
+            "sha256": "4ffa0b56e941d2b7c74cafba698a9245abd47316304a2182a2ca62ebec08005a"
+          },
+          {
+            "path": "native/sfsc-sftp-service/main_test.go",
+            "size": 14819,
+            "sha256": "51e6750d284f10acfdb02a7ee4cbc392b3b132eca8ca3736d368101496cdbec9"
+          },
+          {
+            "path": "native/sfsc-sftp-service/README.md",
+            "size": 4216,
+            "sha256": "c186ad3f707fecc68d399c02eefb46b1081487e558fe8f59ccbca463327a6777"
+          },
+          {
+            "path": "native/sfsc-sftp-service/special_linux_test.go",
+            "size": 911,
+            "sha256": "e7b8f9716414030d7973d7883e88091295e16606b0dd465f8f912ac149240798"
+          },
+          {
+            "path": "package.json",
+            "size": 2899,
+            "sha256": "169c2f780090efb53f13ca9684c6e1abaaef75dcc1590490df12be086a4af790"
+          },
+          {
+            "path": "pnpm-lock.yaml",
+            "size": 17780,
+            "sha256": "9cc95460ae15b8bdadf8a73c35b4c41b60220c5f7cef515c6298d46e0d08a3f4"
+          },
+          {
+            "path": "pnpm-workspace.yaml",
+            "size": 47,
+            "sha256": "7031dd4adf2b413eab35d5915e0130726eb933f5c6776ab0473a31631d79e4f8"
+          },
+          {
+            "path": "public/app.js",
+            "size": 119440,
+            "sha256": "444821a94e8c7d3f222bcf0640cb7d482fc8498cded360f172f14e978767c6df"
+          },
+          {
+            "path": "public/index.html",
+            "size": 27946,
+            "sha256": "d7d5b5e484cce3356b5b45f3fb797ac332a4d7af8ca42ad284aef093d11e21b0"
+          },
+          {
+            "path": "public/styles.css",
+            "size": 40235,
+            "sha256": "35d1b99fa7910e5edbfd2cafbd567d99386be949af2b8c29ba4fbd016d4b7ed3"
+          },
+          {
+            "path": "README.md",
+            "size": 13992,
+            "sha256": "eba189808e9a8d030294ef41c041ebd1492d598bf33a481f107b18e1d304ebde"
+          },
+          {
+            "path": "scripts/apply-beta-singbox.ps1",
+            "size": 3500,
+            "sha256": "dc622a706b3f52d8e53f0b13064fbe74ba59541c77622f285af19c7f3ab54467"
+          },
+          {
+            "path": "scripts/apply-n1-singbox.ps1",
+            "size": 16151,
+            "sha256": "ba57081d38ac636ab343193e2d9f10c319adf0358049fa7977c48aba54eefbe9"
+          },
+          {
+            "path": "scripts/audit-compose.mjs",
+            "size": 433,
+            "sha256": "3880744d68f1f81a9aabaca8233b7e1c627ee1432ab8854042e2a50d7ed5990f"
+          },
+          {
+            "path": "scripts/audit-release.mjs",
+            "size": 319978,
+            "sha256": "24718ace474f901d23e11bb59bda415bbe0f789521163fe2c325e1f0d0d896aa"
+          },
+          {
+            "path": "scripts/build-owner-lock-addon.mjs",
+            "size": 11131,
+            "sha256": "9a00ff96e0a1da0d8eb90a904c4d0eb38d3718f9feb9e13e330aca8e8690e449"
+          },
+          {
+            "path": "scripts/build-release-bundle.ps1",
+            "size": 20939,
+            "sha256": "f8cc6738e665b1454cfd8ddc84408acda91dd0d6f6dbd105f0641829865c235e"
+          },
+          {
+            "path": "scripts/build-root-guard.mjs",
+            "size": 5981,
+            "sha256": "26816c7256dd9d4229389bdf4d73d9edaea4a18bc62fe4a6339b6031f7c31c11"
+          },
+          {
+            "path": "scripts/build-sftp-service.mjs",
+            "size": 2355,
+            "sha256": "ac196ac979f206df5398f7b1246e3f5c3f3a85c11b25fb20a0a1399dcf201de2"
+          },
+          {
+            "path": "scripts/ci-verify.ps1",
+            "size": 1193,
+            "sha256": "e85149a409607019b7d7bf4a8d2b23d884d86984c8ed85749dff31085094e0de"
+          },
+          {
+            "path": "scripts/client-trial-runner.mjs",
+            "size": 14221,
+            "sha256": "8fbf0560da51baa86043b302761de9eea30523056422b1aab07db547833dc722"
+          },
+          {
+            "path": "scripts/create-trial-t-key.mjs",
+            "size": 7291,
+            "sha256": "e2178ecaa8389e1c9c82960f52f303c4ab73ccc8d88b0c8891cf56be234b9a5b"
+          },
+          {
+            "path": "scripts/deploy-n1.ps1",
+            "size": 26403,
+            "sha256": "f446726f87ee9659fbaa66b42ad2ed9ecf485d5c10c3116f5ed73738586cb2ef"
+          },
+          {
+            "path": "scripts/deploy-n1-appliance.ps1",
+            "size": 2785,
+            "sha256": "3b7d522f8f608c28a804766244683c4b677a1de845f5ff6ab8e10405c0320500"
+          },
+          {
+            "path": "scripts/internal-trial-assistant.mjs",
+            "size": 21797,
+            "sha256": "519453ccbdaa8293db11b8ef0ee083f15360b57557557f67141437cd0b140155"
+          },
+          {
+            "path": "scripts/lib/build-fingerprint.ps1",
+            "size": 4775,
+            "sha256": "015677ae701b606fbbdd52a79d80a9b580b6e8fe8ccfe7f57eef97793c3fbb48"
+          },
+          {
+            "path": "scripts/lib/composeAudit.mjs",
+            "size": 11042,
+            "sha256": "3cdc6f390ee0fa341c6e72fc71073125cf54f271b41efd68b14800cdc52a7edd"
+          },
+          {
+            "path": "scripts/lib/owner-lock-evidence-paths.mjs",
+            "size": 5717,
+            "sha256": "87b6732edb85d9b24cd2592925405ac7707793f5fde270c5d56d1b568bfc8794"
+          },
+          {
+            "path": "scripts/lib/releasePaths.mjs",
+            "size": 1514,
+            "sha256": "67fab652c5a22f1a1be0da3571d2e6e27dc984e65d4e39a9cd41a05200a3a8b6"
+          },
+          {
+            "path": "scripts/lib/releaseSignature.mjs",
+            "size": 6253,
+            "sha256": "ad3b94445dfe818e630847328804cdd69d2f16514fd587ff667c4e17cb1ae9a5"
+          },
+          {
+            "path": "scripts/lib/release-zip.mjs",
+            "size": 8780,
+            "sha256": "69a7d270e26dfc5abf69dfb2a92c1c5894129f787ba2d1b20d6052ffd683f60b"
+          },
+          {
+            "path": "scripts/lib/reportSecrets.mjs",
+            "size": 2171,
+            "sha256": "76d6c14d2949502dc54b0fd8dde6cee9312201be4bdfb46aa78cc1dd4cc8d9f4"
+          },
+          {
+            "path": "scripts/lib/report-secrets.ps1",
+            "size": 3093,
+            "sha256": "0d3560c42ab8b37c6a7f3a6e7a1293f89542eac4b3f5925f126159755a95ce4f"
+          },
+          {
+            "path": "scripts/lib/runtimeContracts.mjs",
+            "size": 131810,
+            "sha256": "c8fafea9714635797ee0cb6c145b08f92d65ad6654cfb8ebb6b0540fed45054a"
+          },
+          {
+            "path": "scripts/package-native-runtime.mjs",
+            "size": 9175,
+            "sha256": "aaf4335d365c3a5136a77674b21012a2a3c87f58fab04460994bd80bcbf171c9"
+          },
+          {
+            "path": "scripts/package-relation-runtime.mjs",
+            "size": 12108,
+            "sha256": "970ea8a9448058c00e2a6170cac9e2370c3151737dcfa6e422b4943f1d287c68"
+          },
+          {
+            "path": "scripts/package-sftp-relation-runtime.mjs",
+            "size": 8794,
+            "sha256": "d733ef7bbdf3e22de022562c5d4f2a7f9642da1edcf616f41d658c03f2500fef"
+          },
+          {
+            "path": "scripts/pilot-summary.mjs",
+            "size": 26805,
+            "sha256": "dc112c3a7e5c3b68988a0db6f5dc3d52c39df2e75ca847771071d24391a94b33"
+          },
+          {
+            "path": "scripts/post-deploy-n1.ps1",
+            "size": 41654,
+            "sha256": "5e649b7fb31fec8d3b968984a764185dd03b98796b5ff4a65414944342b2eb90"
+          },
+          {
+            "path": "scripts/preflight-release.ps1",
+            "size": 13483,
+            "sha256": "46fdaca31a8b3e4612c8cf5ec609911f8acf1376f33996ef532ff0b452521156"
+          },
+          {
+            "path": "scripts/prepare-internal-trial.mjs",
+            "size": 9398,
+            "sha256": "47d6e2e092f421781c4d6b5d2dd731edaf7b9f710f417d9f1e3c202bb50e86e4"
+          },
+          {
+            "path": "scripts/prepare-pilot-wave.mjs",
+            "size": 15208,
+            "sha256": "d334e2957b63ed4af6941b6efa340e0cbffc0441a84b44f3becb716c32e3d175"
+          },
+          {
+            "path": "scripts/probe-linux-marker-immutable.py",
+            "size": 48569,
+            "sha256": "811ac7fe3e5a1ae9de93d44644398e5663eecd6c3a200d682759942b140d41e9"
+          },
+          {
+            "path": "scripts/probe-linux-sftp-marker-protection.py",
+            "size": 58313,
+            "sha256": "6793deacdec932e6cbe69c9206f565b3ba0b7c36e07207a3d1dcfaec2f9c5382"
+          },
+          {
+            "path": "scripts/probe-sftp-adapter.mjs",
+            "size": 61299,
+            "sha256": "f43f0c89a31a164ea316cb7eabca98fde63b700e792689babb452e77c76f2d9e"
+          },
+          {
+            "path": "scripts/probe-sftp-auth-proxy.mjs",
+            "size": 46539,
+            "sha256": "91986d287d61a7f0d4a9c5da9f0623e69958ea272bdc019d148f7c5bd6d44303"
+          },
+          {
+            "path": "scripts/probe-sftp-relation-isolation.mjs",
+            "size": 25847,
+            "sha256": "ccb161d50817d6281bcfbde542dc91fe4b443967dd4e404e95bfd883f9d64812"
+          },
+          {
+            "path": "scripts/probe-sftp-reserved-paths.mjs",
+            "size": 24230,
+            "sha256": "f2ba97c6913d5a772bb773937fb8d1799aecd18129f3628d16451ee421c4ea5a"
+          },
+          {
+            "path": "scripts/probe-webdav-adapter.mjs",
+            "size": 50325,
+            "sha256": "eac66e50bc143708a5b7294484d6ab82d3a88d7214f503a2a16c27226f0913a6"
+          },
+          {
+            "path": "scripts/record-internal-trial.mjs",
+            "size": 15166,
+            "sha256": "557490ab3b57ba22a263a10e3cb61c0f293a6917cd36e6c257bf5bb674aac6cc"
+          },
+          {
+            "path": "scripts/release-signature.mjs",
+            "size": 5974,
+            "sha256": "afb9a8c5ae42d91a7c4cafe79094d446fdf49b6c10209f4dc8fc56a37f1a14b9"
+          },
+          {
+            "path": "scripts/release-status.mjs",
+            "size": 12521,
+            "sha256": "d69942f349b53eab709270b77d4e98c8ef0573fda22622945cdc3653f4634e73"
+          },
+          {
+            "path": "scripts/seed-doc-screenshot.mjs",
+            "size": 6056,
+            "sha256": "2081c1337bef356096d67d47f03c67136c9d56a661e7cc9bc0e95404640ef1a9"
+          },
+          {
+            "path": "scripts/smoke-client.mjs",
+            "size": 11546,
+            "sha256": "b0484a87bb8ceec4c67635f261df794dcbc2eff112165369b332b55598fdc167"
+          },
+          {
+            "path": "scripts/smoke-client-package.mjs",
+            "size": 29017,
+            "sha256": "a5386b8fcc7f90f4ee2598f9af6ada927d92adb03c1993e64d7b8993ff4ee6e8"
+          },
+          {
+            "path": "scripts/smoke-electron-e2e.mjs",
+            "size": 29368,
+            "sha256": "7784b39806ff405aa90cc6a721c5b744253c010c8027c953ee6ac59157cab759"
+          },
+          {
+            "path": "scripts/smoke-electron-window.mjs",
+            "size": 13721,
+            "sha256": "a5caadc94836a6f5de8a8498947c84122db910916c0ef6f174ef45811df27b93"
+          },
+          {
+            "path": "scripts/smoke-server.mjs",
+            "size": 27836,
+            "sha256": "d26f2a8db4b72a5cfd62938615f579f956c2805fd385689de614349149f964ad"
+          },
+          {
+            "path": "server/.env.directory.example",
+            "size": 364,
+            "sha256": "f1c52120d2f9b84ffbf33d06e9223857351ebb19036cd91a852569578a0f1d0a"
+          },
+          {
+            "path": "server/.env.example",
+            "size": 1020,
+            "sha256": "c26016e2b2f4854249b82523bb45c823cb939d748dce204fdf08051c5a39a4bb"
+          },
+          {
+            "path": "server/appliance.Dockerfile",
+            "size": 2739,
+            "sha256": "8c4c70648f9d86923fcfa12b3ec6d284111ac66d8b80f64c9bc85e50a8ffc142"
+          },
+          {
+            "path": "server/Caddyfile",
+            "size": 194,
+            "sha256": "6aa7d8202908fbb5123058eae8a62cb120f11df27c34a35aef102c9e6ac45399"
+          },
+          {
+            "path": "server/DEPLOYMENT.md",
+            "size": 7178,
+            "sha256": "70f977790f3f5a8aecc878605be226d225766f449155b87cfc467fdcff338636"
+          },
+          {
+            "path": "server/docker-compose.n1.yml",
+            "size": 3684,
+            "sha256": "1fa8025c1c167217ad28d1c32b6347cd3688cd390373e7fbe2b9a3fd818fc052"
+          },
+          {
+            "path": "server/docker-compose.yml",
+            "size": 4186,
+            "sha256": "6004665a505fcf1cc533f946799ef1278b2a9b30cc2fca2cd4b403dfc56d645b"
+          },
+          {
+            "path": "server/Dockerfile",
+            "size": 802,
+            "sha256": "d2a4215f3ddef3d5d53187c0f5950329e6812d8dd4bea1a05583cb1e290b0868"
+          },
+          {
+            "path": "server/install-n1-appliance.sh",
+            "size": 1707,
+            "sha256": "9b375c3ad3bfb0887a04906b8d9fda7fdd57beaddc5eab3b351c574b8f000c8f"
+          },
+          {
+            "path": "server/install-n1-directory-appliance.sh",
+            "size": 11992,
+            "sha256": "6c7b0ab354c97f258ad1617a0d12eafaa9dccdfd9f0d6da9308003667a6a7af4"
+          },
+          {
+            "path": "server/README.md",
+            "size": 4561,
+            "sha256": "18ee424226cc4f3e92a7875e8177313701c952c889b78b44cd976ab5fc686390"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/dependencies.d/sfsc-singbox",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/finish",
+            "size": 521,
+            "sha256": "4fece9863bdea1c8cae4858745413b863eb93bdc3d9a9743953e24bc8d81cac4"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/run",
+            "size": 536,
+            "sha256": "1cc6b02ffa6a90234618921286cc3ed9780fc0e54e18501172db031965a412ba"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/type",
+            "size": 8,
+            "sha256": "d0001a150b83f68f09004c5059045cb76a3f064eed4d42ce072bc3722c118006"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-singbox/run",
+            "size": 196,
+            "sha256": "e5fb9f6acd8d82fb27fcbc4aa858c6737e8f32c3ba9713b2ded51a6fb0e2359e"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-singbox/type",
+            "size": 8,
+            "sha256": "d0001a150b83f68f09004c5059045cb76a3f064eed4d42ce072bc3722c118006"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/user/contents.d/sfsc-node",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/user/contents.d/sfsc-singbox",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/manifest.json",
+            "size": 314,
+            "sha256": "51c680667efd3cecbe11f87b2bd8a886e26edbed45d6cb9c4fe5c4feffb4c613"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/manifest.json",
+            "size": 486,
+            "sha256": "17e57bd3c753a55fdccc0be6b14a02736923f38714e7881c53a5f527876b3864"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/sfsc-relation-supervisor",
+            "size": 3729529,
+            "sha256": "67c5e8b2aed052c908eb6a789db4e0e5aaffdbac6506ee05e76cda993985e9ba"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/sfsc-root-guard",
+            "size": 3536944,
+            "sha256": "a01a75e1991c01d2e28fc7f98b0983789dbc73099f5bdd4043c6f41eb22756a1"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/manifest.json",
+            "size": 680,
+            "sha256": "dd699246bf02cb44b291b543dfa72174a75966473b59a51872e5b2bca30299bf"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-relation-supervisor",
+            "size": 3733811,
+            "sha256": "70441080a62b4281516c02a6d23d9925b7427a5b3b2d34e3a963bdfcee6a03a4"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-root-guard",
+            "size": 3543319,
+            "sha256": "fb9506a5449db95da53b1c225241517efde2ae695517e6a177139ee0ebd5bab5"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-sftp-service",
+            "size": 6632706,
+            "sha256": "57bb9bb1ada629fc59328ab25a8391d502036989d6dc349a8590c5ea17589023"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/sfsc_owner_lock.node",
+            "size": 79024,
+            "sha256": "2d6ea2c63f7eedb8b2e3ecc95ef00499e6f8fdd4ae31125adb76c3f43462dd97"
+          },
+          {
+            "path": "server/runtime/runtime_epoch_ledger.py",
+            "size": 38612,
+            "sha256": "e484281bb05543bd22e22c4026137898f7696f05875a0baddb4aedfc29979853"
+          },
+          {
+            "path": "server/runtime/sfsc-runtime-launcher",
+            "size": 67687,
+            "sha256": "f66974896d620d55f09a7d4c3a52f54e7c57e482617415cddb60a7c665d536c0"
+          },
+          {
+            "path": "server/sfscctl",
+            "size": 3304,
+            "sha256": "435a17d7cde2462d6b83946e1dc28a3ca747652e9e82c1ce089514da5a244c68"
+          },
+          {
+            "path": "server/sing-box.Dockerfile",
+            "size": 550,
+            "sha256": "6782f34cc0bbdf76a665f8d95bf8a8751d91db83da56a9fff3a2d6d9a1fd3b39"
+          },
+          {
+            "path": "server/sing-box/config.example.json",
+            "size": 456,
+            "sha256": "553927e1230c316b46440fc7945d5fae974941c7c94ca4d973f9ddff9d2ea716"
+          },
+          {
+            "path": "server/sing-box-supervisor.sh",
+            "size": 3706,
+            "sha256": "e1de3952486ccfc68c50fa38c20b50ba5bd4c43dccde47c3876de4a346506c79"
+          },
+          {
+            "path": "server/systemd/sfsc-appliance.service",
+            "size": 1131,
+            "sha256": "7c31f11fc031b8b7c326497ffb819516be5ce2dcdfcf7785a16b82603ecebac9"
+          },
+          {
+            "path": "server/systemd/sfsc-appliance-directory.service",
+            "size": 1278,
+            "sha256": "37e5cffc24765f38aa79be32edcbf47373fc45c6d8efd7cb2ba708b78f4daf62"
+          },
+          {
+            "path": "server/systemd/sfsc-directory.env.example",
+            "size": 284,
+            "sha256": "4adaf8db9b121cfd9c2bde8e48748b5e097f22b58ce9314cc1a0677f1904ea6b"
+          },
+          {
+            "path": "server/systemd/sfsc-minio.service",
+            "size": 721,
+            "sha256": "07a325ac9dc056e24ab5a7ed9d00eeb31bddca75c36f940742e015278006c38b"
+          },
+          {
+            "path": "src/core/applianceHealth.js",
+            "size": 5827,
+            "sha256": "06e0bb280b16dcadf0d62df1ff7ddaf990bc02cb945dae2ba547ebe56bc32414"
+          },
+          {
+            "path": "src/core/bandwidth.js",
+            "size": 3398,
+            "sha256": "0fbf35f5e8ec5f31283bb25002c5dbdb6edb5c24ce5f01c9e43194d588fb8f92"
+          },
+          {
+            "path": "src/core/channelImportCode.js",
+            "size": 3677,
+            "sha256": "a60564e57071dc67f290ddce485a3e2496be3043d444368ea4bbdc4950dedbc6"
+          },
+          {
+            "path": "src/core/claimProtocol.js",
+            "size": 3635,
+            "sha256": "54f4c44cfed673bfc1cc369b0b732619f112f8ebc14784227756ec874b581a6f"
+          },
+          {
+            "path": "src/core/dataAuthorization.js",
+            "size": 12703,
+            "sha256": "803d228aec2d3a37162575c0b1e9dfdec07c5627cdc5099abc1f6a9fd094d346"
+          },
+          {
+            "path": "src/core/diagnostics.js",
+            "size": 6124,
+            "sha256": "198768185f646deb0f29946d232e28a8299a74b0f26b61a668c6a8b08bedea3f"
+          },
+          {
+            "path": "src/core/directoryRootGuard.js",
+            "size": 40074,
+            "sha256": "f14a8cb9b950397729cf5317bb7996b9b5791b911cd304a0da5e896145ad0a8e"
+          },
+          {
+            "path": "src/core/enrollmentAuthority.js",
+            "size": 34615,
+            "sha256": "d419fa420fd11ccabd126671f2f65f4c04610b9b0131110b75913dc72fba4c75"
+          },
+          {
+            "path": "src/core/enrollmentProtocol.js",
+            "size": 34290,
+            "sha256": "b32ac12df7773676259038f72b642746e771eec1acf61c3fafd8e5fc7abac786"
+          },
+          {
+            "path": "src/core/errors.js",
+            "size": 17068,
+            "sha256": "9138cf29c38e6528e8d7fba1140e754cefaeff1a8b86b2f67c09a06209d4c36c"
+          },
+          {
+            "path": "src/core/heartbeatAuth.js",
+            "size": 3375,
+            "sha256": "8ca2e37b4bce26ff50170168aa7950e3c1c42f698337c25e6adb3db4d38dcc38"
+          },
+          {
+            "path": "src/core/httpJson.js",
+            "size": 1319,
+            "sha256": "2b9548aee6b5b884bdcdb002694e7590ed6597e31d5ec115ac57c7b0ae077274"
+          },
+          {
+            "path": "src/core/index.js",
+            "size": 2866,
+            "sha256": "2fe68911994ef3842282f59a0044096063fde48d7d7ca3f8a69b8ba96043e10f"
+          },
+          {
+            "path": "src/core/linuxImmutableHandle.js",
+            "size": 42172,
+            "sha256": "b047b333fd1366466eb7c903ca07e7c6088b19a0240fd9031fdd5de1a6258be3"
+          },
+          {
+            "path": "src/core/linuxRelationFileServiceRuntime.js",
+            "size": 53736,
+            "sha256": "c56218b7b569ca263c2a7022db934322b77eced017c625cd0c55afe430301f2c"
+          },
+          {
+            "path": "src/core/minioPolicy.js",
+            "size": 2261,
+            "sha256": "d7090dc5db42df7ea8459537c83a51aa90c392ac4be7298af4cc039bf4f44f88"
+          },
+          {
+            "path": "src/core/numbers.js",
+            "size": 1312,
+            "sha256": "ead62b85a061a0ce9a5b8c215b6cb5be4f8ddfff8607b32fdfce9ca30b936356"
+          },
+          {
+            "path": "src/core/profileProtocol.js",
+            "size": 14151,
+            "sha256": "c76dd37cd636ca480651f9e0abf45d5ab9654bca36224150ccf86cb445d3de83"
+          },
+          {
+            "path": "src/core/protocolSchemas.js",
+            "size": 38681,
+            "sha256": "2865ca9cb65222454f6afa912cfc0418011fc778acf1fd51c9eda930c8efed4d"
+          },
+          {
+            "path": "src/core/rclone.js",
+            "size": 14377,
+            "sha256": "caa9584308c2916f2803b879d33a1b84fcd274a2d8e9a1654645777259282a74"
+          },
+          {
+            "path": "src/core/relationFileServiceManager.js",
+            "size": 158983,
+            "sha256": "0ed0db4febb52a87c85ee18357df644f2cb31ffb5dbfd8e719ebb729a73ae1ee"
+          },
+          {
+            "path": "src/core/scheduler.js",
+            "size": 2280,
+            "sha256": "b8e4011c262538ff426c0c6cca565d1659aefa643652c6d587571613f8a3c3a2"
+          },
+          {
+            "path": "src/core/serverAdmin.js",
+            "size": 79397,
+            "sha256": "8e90ab3c8aef17217d8dd7a07af1122559cece8b295615bd24d3d9a3293648b3"
+          },
+          {
+            "path": "src/core/serverFolder.js",
+            "size": 1253,
+            "sha256": "d347815a304ce2bb54771e2cca78148bcbda773f8bbc39b27c4bde0b30058e0b"
+          },
+          {
+            "path": "src/core/serverStateLock.js",
+            "size": 9469,
+            "sha256": "7a7c82c491e40b966b283f5cf0364d77c94f176d4018d1fc4934e5e1b0111fee"
+          },
+          {
+            "path": "src/core/setupReadiness.js",
+            "size": 5998,
+            "sha256": "dfabd2f53d495da818b143821c0a42d5fa7ff5fa688d283d3e3dc20a60fd0eb7"
+          },
+          {
+            "path": "src/core/singbox.js",
+            "size": 2381,
+            "sha256": "c7942db572f186c7d6d1837f8de5f4efe616b849aad207f7510edc3a1745d859"
+          },
+          {
+            "path": "src/core/singboxControl.js",
+            "size": 3185,
+            "sha256": "7eb4fb22001093d224eb37e5351bd046b918ac3a467ba8e3e57f6160875a1bd0"
+          },
+          {
+            "path": "src/core/storage.js",
+            "size": 9083,
+            "sha256": "70c10b3750c2feecb4608b4cf262ed63c087703c39ef4a037c97969de9ccf8d7"
+          },
+          {
+            "path": "src/core/syncEngine.js",
+            "size": 1455,
+            "sha256": "18ee39b53f0db9e5e608353623b04ec2b455a8c2563d38b04583913065d34c4d"
+          },
+          {
+            "path": "src/core/syncRun.js",
+            "size": 10377,
+            "sha256": "871bae434e9622b1b3cc7d196e3acb63a4d2d8421645ce164b24afbbb60331cf"
+          },
+          {
+            "path": "src/core/syncSafety.js",
+            "size": 1792,
+            "sha256": "40b97610152cf6bb0e56ec39c45ec0edfa785ffdf4c406088d01a64f330a641d"
+          },
+          {
+            "path": "src/core/syncSpaceMode.js",
+            "size": 3320,
+            "sha256": "88c07bb409df30fa0d9b720122116484c4b0ecd15e9fd4c22f32839cb7cd4588"
+          },
+          {
+            "path": "src/core/vless.js",
+            "size": 1782,
+            "sha256": "4b54517ca9429e51136c0dd23dfaab4462811450772c47fb77013d4de1a05f95"
+          },
+          {
+            "path": "src/minioProvisioner.js",
+            "size": 7149,
+            "sha256": "d16d1f1966c6df122f1b1fb57d86768ee569bb204361e7e985aa762ad84bc560"
+          },
+          {
+            "path": "src/server.js",
+            "size": 98490,
+            "sha256": "c0f0b24a8e1a115ac2df70e54b5231b16581b21ec1b3febba9e3d5e23aa5e710"
+          },
+          {
+            "path": "src/service/enrollmentBootstrapGateway.js",
+            "size": 7300,
+            "sha256": "b5fd9892d5109c4ea2edb6c3291b07d91dbea84ce586d79121563bf4ae0db073"
+          },
+          {
+            "path": "src/service/enrollmentBootstrapIssuer.js",
+            "size": 15110,
+            "sha256": "68d8a09f6d3cf5153831259c517ca4310318b7ca0f92981ef2c1b34c1ca5fd4a"
+          },
+          {
+            "path": "src/service/enrollmentDataAuthorization.js",
+            "size": 26118,
+            "sha256": "0f9eb500c894ee4c1ca03ffab90cd74b4053147f86127579f3dfd23af83d9579"
+          },
+          {
+            "path": "src/service/enrollmentReconfigure.js",
+            "size": 17771,
+            "sha256": "a850044e3f8827d0fb47fe099fa7869aca38826f4e143ca03d5a0f27bc279063"
+          },
+          {
+            "path": "src/service/enrollmentRevocationService.js",
+            "size": 16339,
+            "sha256": "4d76f74335b30d0455a2eb70305b2d2cded7bad2477152ec8b1dc995882e8a8e"
+          },
+          {
+            "path": "src/service/enrollmentService.js",
+            "size": 51868,
+            "sha256": "013849cd238c37011fc1110c147ecf446bddfd943a6ec9cf36cc291e0c9066bb"
+          },
+          {
+            "path": "src/service/ownerAdmission.js",
+            "size": 1938,
+            "sha256": "25b0e8519317194d77ee6e3f73e878693eafa3b70480f5f073ea7c250dbc54d8"
+          },
+          {
+            "path": "src/service/ownerAdmissionCore.js",
+            "size": 15747,
+            "sha256": "7b5166c90e8dcf9c644924dc9d2992b4f7c1cbae04a3c94de3b6725f1904e1e7"
+          },
+          {
+            "path": "src/service/ownerLockBinding.js",
+            "size": 6383,
+            "sha256": "6a6f13234a37fbf927fdaf95843df96ea6bc50425bc44dd40f6e7ec303f53f32"
+          },
+          {
+            "path": "src/service/ownerLockCompatibility.js",
+            "size": 3228,
+            "sha256": "5c4b4f39af9620f1b2015f4d2b7d9e8170acfd8e58ee4e172ee28faa3837d11d"
+          },
+          {
+            "path": "src/service/ownerStateSnapshot.js",
+            "size": 1517,
+            "sha256": "d0467a760de7257ebe8e02222fa37b5d8e8032c9340c995b774abdcdf4edd340"
+          },
+          {
+            "path": "src/service/realityTransportProbe.js",
+            "size": 9424,
+            "sha256": "74bf0f44481787045ae34cc408ee57cd084a1f250819d9f0aa125e8a80cb96e5"
+          },
+          {
+            "path": "src/service/relationRuntimePackage.js",
+            "size": 12394,
+            "sha256": "d82f20927a051e21524f8407a061afd082059fd20823fecc2be6d1fb4f56e7e4"
+          },
+          {
+            "path": "src/service/relationServiceBindingCatalog.js",
+            "size": 53004,
+            "sha256": "ea853cda8d9d923eefb441907e2704bb93f0964038a6757726b0486f579f6064"
+          },
+          {
+            "path": "src/service/relationServiceProductWiring.js",
+            "size": 22847,
+            "sha256": "2c0dc4db1be0698d71a2ae5bedab22e159f50e247a455137195cd0a36e3d37d9"
+          },
+          {
+            "path": "src/service/relationServiceStartup.js",
+            "size": 8072,
+            "sha256": "b2eae32b3df5e9aa868de1ed54199450d573862edf201a9f7246ea4387313b2d"
+          },
+          {
+            "path": "src/service/runtimeRecoveryTransaction.js",
+            "size": 31547,
+            "sha256": "244571a2ad79b0f304de29588a49129daec026725170474af40a210494d37d99"
+          },
+          {
+            "path": "src/service/sharedDirectoryService.js",
+            "size": 11242,
+            "sha256": "e29811f2d69784920d1b504192086472b16ebc896e7c194dc466603c61186481"
+          },
+          {
+            "path": "src/service/startupAdmission.js",
+            "size": 22495,
+            "sha256": "d070eaf309c2b97dfe910270e8d6d5ff834e67dac5d1d11bdf893f9de930c79f"
+          },
+          {
+            "path": "src/service/startupMaintenance.js",
+            "size": 14874,
+            "sha256": "fd4c42b5043101a6a98a59bf801443b337d4203d3702293b6f1cd905a2726bd6"
+          },
+          {
+            "path": "src/service/startupMaintenanceCli.js",
+            "size": 21642,
+            "sha256": "aef64a01a57bd6b3ca1a8a8d05b8b71fc9b28276927edd175faec646d02b7b15"
+          },
+          {
+            "path": "src/service/startupQuiescenceStateParser.js",
+            "size": 48256,
+            "sha256": "9d2a3b191bb4fa96becd1bf76edba7d4926a863ec30424e1482b2baaaa2c6ca9"
+          },
+          {
+            "path": "src/service/startupRecoveryPermit.js",
+            "size": 14275,
+            "sha256": "3a7516919a7a7ad36e98277377da907759d20747c1115af474c672f1e834a6db"
+          },
+          {
+            "path": "src/service/strictStateJson.js",
+            "size": 13306,
+            "sha256": "c293d222cdee19f33b87b6bfb2cd91df2b64af1b3db6b0236ebb508560a026cf"
+          },
+          {
+            "path": "tests/appliance-deployment.test.js",
+            "size": 6472,
+            "sha256": "e44b457d18e10dbe078f69a1114914bbe3ca37b8edef1225b3edf688c034a77b"
+          },
+          {
+            "path": "tests/appliance-health.test.js",
+            "size": 2970,
+            "sha256": "f4f0021ef4a355ec35261c73b8c3bf5dac049cbf5d38e8f480fd6c48313f9902"
+          },
+          {
+            "path": "tests/client.test.js",
+            "size": 210518,
+            "sha256": "58d5e64dad74ad5dad1c9307e901ec137b781639315a2051549abad5d6d3c238"
+          },
+          {
+            "path": "tests/client-auto-retry-policy.test.js",
+            "size": 7643,
+            "sha256": "8710889915fbc4c6615395c7a3016803ae65e3b18b132ad12382d7049010adb9"
+          },
+          {
+            "path": "tests/client-connection-repair.test.js",
+            "size": 4857,
+            "sha256": "0acb9bfba36aee1dc4efa868da277c26f1e38ad4a0494a82befd98c4ac46c24a"
+          },
+          {
+            "path": "tests/client-enrollment-relation.test.js",
+            "size": 13950,
+            "sha256": "64616d9d79ccd41f5d4ce3b8fc8acfec8cbeb0c95cf1550d84d785638a26bcd8"
+          },
+          {
+            "path": "tests/client-enrollment-session.test.js",
+            "size": 33707,
+            "sha256": "fb87f4f5ff724362888ff4e9f2d4fce84b8ad88918234bbb63ee8470e2fdee10"
+          },
+          {
+            "path": "tests/client-enrollment-status-contract.test.js",
+            "size": 1710,
+            "sha256": "059c341159096c93a13121e13c3d729372dc8e2aef4ee6f431f1a55596a8de2b"
+          },
+          {
+            "path": "tests/client-first-bisync-conflict.test.js",
+            "size": 10333,
+            "sha256": "69aeba00f95f5b0d6034d4ff9f38df562a04d1b2c50075180e5787a021a535ec"
+          },
+          {
+            "path": "tests/client-http.test.js",
+            "size": 297716,
+            "sha256": "a4777b105b2725f52a0e6ff621f2cb01f98407a1b1ed19c97d988f888d5d85d6"
+          },
+          {
+            "path": "tests/client-live-state.test.js",
+            "size": 16350,
+            "sha256": "e863e76d6c15b59f9fd5a7a348a1fb6fe6a2ce02a0deaea7fec47e529d6e7fa7"
+          },
+          {
+            "path": "tests/client-marker-error.test.js",
+            "size": 4802,
+            "sha256": "e7d80e97296632d437e68ea56d0dfcb9ceb1a49ccb182bb29fdbc8263b822710"
+          },
+          {
+            "path": "tests/client-sync-recovery.test.js",
+            "size": 23787,
+            "sha256": "f7ca92768093aecef72289a28a17245b028513d0e891fcfaa36801f616658fc5"
+          },
+          {
+            "path": "tests/client-sync-relation.test.js",
+            "size": 36408,
+            "sha256": "f388239b6a274879d3467dff108948b04d10b5f1098613eab625ea338e23d522"
+          },
+          {
+            "path": "tests/console-first-run.test.js",
+            "size": 6405,
+            "sha256": "c4164dc692d5eefc3fc6b7b0d0a59419ffaf46d4326d1651c702f7127502f18a"
+          },
+          {
+            "path": "tests/console-sync-space-mode.test.js",
+            "size": 3482,
+            "sha256": "14a6f85a7829cd1143573fb1515da61cb0555c707f3d9b1c6f3b3d1d20b2a2ed"
+          },
+          {
+            "path": "tests/contract-http.test.js",
+            "size": 222555,
+            "sha256": "73d9b5420058a0afb3df07b047e72a6f93b5787db8a9692edcc41f807e01c6f7"
+          },
+          {
+            "path": "tests/core.test.js",
+            "size": 724856,
+            "sha256": "9a8b2486c4664eb8453f908bd3a0f41ac25e2b7cc8dd76bc2b4ed93f28b2ea25"
+          },
+          {
+            "path": "tests/data-authorization.test.js",
+            "size": 5939,
+            "sha256": "9bb1edd0f9d0ae2e07181abc959dee46476275410ef6e4e104c1ee99fb3c220a"
+          },
+          {
+            "path": "tests/directory-installer-rollback.test.js",
+            "size": 12434,
+            "sha256": "c54e7dc69107450dc2894a29fc02eb5790aebc76946b964013557b04b0493adc"
+          },
+          {
+            "path": "tests/directory-root-guard.test.js",
+            "size": 23528,
+            "sha256": "202cedb29e223acdeeee2e70d94e8ff78ac9f4b6140e469aa502376604de0437"
+          },
+          {
+            "path": "tests/enrollment-auth-expired-diagnostics.test.js",
+            "size": 8024,
+            "sha256": "45caa014249e69f0a04826af0d66951da766a2a4ac305cce815f8a0463d8fba1"
+          },
+          {
+            "path": "tests/enrollment-bootstrap-gateway.test.js",
+            "size": 6990,
+            "sha256": "fa194671e6e54e8e701a13ac0df2684d9bbcbd5c41e13508c8a78524d94954e8"
+          },
+          {
+            "path": "tests/enrollment-bootstrap-issuer.test.js",
+            "size": 8954,
+            "sha256": "2889da7828e6828ec5f46d23ccaf0a2cbfc3d84f6adaa308093c227f9d87b61d"
+          },
+          {
+            "path": "tests/enrollment-data-authorization.test.js",
+            "size": 18391,
+            "sha256": "95b3ab74eb38a7fef4389b1e7cb51662efe9836ba590effaf4563418212c75a4"
+          },
+          {
+            "path": "tests/enrollment-http.test.js",
+            "size": 70480,
+            "sha256": "b084b65d962c81855bd21995bb1dc90e2d90c643edbf065e43105c6573226f21"
+          },
+          {
+            "path": "tests/enrollment-protocol.test.js",
+            "size": 41377,
+            "sha256": "4905cd247612e722ce0e7dab703ad3519cce9657767dea69f73faac8e13609b3"
+          },
+          {
+            "path": "tests/enrollment-reconfigure.test.js",
+            "size": 10230,
+            "sha256": "e94196eedce90b611855afc7fd8f55ffc55cd8f13de5c0bb8c99e688c701133d"
+          },
+          {
+            "path": "tests/enrollment-revocation-service.test.js",
+            "size": 15741,
+            "sha256": "a599c05c912ed4c7b62718eacb89e6a0106de7833ccddbac23ea5b2a14765243"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/acquire-child.mjs",
+            "size": 1526,
+            "sha256": "1552769d97cc65fb9f8a85c1b033842625e765f0427d5e619d7d842e9bc7767e"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/competition-child.mjs",
+            "size": 2313,
+            "sha256": "ec4c913c851ca7bd1f795b07a47fcb63353c1b0f558248abbb76a2a659a73596"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/exec-child.mjs",
+            "size": 2322,
+            "sha256": "640452a22f5437c6108ad8e58803314203fdb9af7327922b2f955184537dc479"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/fd-leak-control-child.mjs",
+            "size": 1890,
+            "sha256": "2d4f3874546cd3f2bc37b0bbd6cbf7e43f5b77d353388435d7a9d282494c2d1a"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/gc-hold.mjs",
+            "size": 1630,
+            "sha256": "f4c29df4ab9477ae4226c478a28fdd628eb350668d41ccd89e900ef001e2c8e8"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/holder-child.mjs",
+            "size": 16799,
+            "sha256": "3a54ebbef7f92433df916aa6f4ad38dc198738a1c36d9004b2d35ca1cd88e2ec"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/native-worker.mjs",
+            "size": 1220,
+            "sha256": "71807be3d5239113cea4d2777f22da0481ef80d458e616f33ad8b66298f76316"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/worker-acquire.mjs",
+            "size": 743,
+            "sha256": "560ef0aca1ac2a0700a635907196407ab74376c539e75eeec510bdac13aefe97"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/ordinary.txt",
+            "size": 20,
+            "sha256": "b255c5fa9b18a004cd35127442b4a7650cec694bd20cbe02ec525c1aa12b5b75"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/finish",
+            "size": 31,
+            "sha256": "8ed4f94469e2185d06264f96b86d9f02d0002d7dbcc0c873654b77eb6030c265"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/run",
+            "size": 28,
+            "sha256": "7baaa5db1a7e03742a03f691c92c3b43b311e5eede89d963d7f46047b1724500"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/runtime/native/linux-arm64/relation/fixture-native",
+            "size": 12,
+            "sha256": "3bd1c3392f9355129078e71095772d08544f27b7b305633d079e227bcd25d2c3"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/runtime/sfsc-runtime-launcher",
+            "size": 33,
+            "sha256": "ade8c7212a7fa821e16a6627b536c20040f8c44da67aed12fb51419598536e6f"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode-fixture.zip",
+            "size": 3252,
+            "sha256": "a6178deb5c6f2a50cb07d1e7e119d53d6641211a53dc7d78835ab5034c3ac365"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-four-actions-real.json",
+            "size": 22044,
+            "sha256": "701b9710d59f0ed92530952712ad0fac5ec90b0a615fd6c9c498efae602f91dd"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-real.json",
+            "size": 22044,
+            "sha256": "701b9710d59f0ed92530952712ad0fac5ec90b0a615fd6c9c498efae602f91dd"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-third-run-real.json",
+            "size": 9919,
+            "sha256": "bcebf7c7addc7caeb057eb991a3f045566775ed0074a8c92630382db77eab3da"
+          },
+          {
+            "path": "tests/helpers/contracts.js",
+            "size": 2301,
+            "sha256": "69bf7aa0d953ea0831171d08f7e8adaa03c6fa0928d44984b1eb112b3004d62e"
+          },
+          {
+            "path": "tests/linux-immutable-handle.test.js",
+            "size": 40828,
+            "sha256": "a778472672aec84d35dca517ee8ef841fb8316cebf1673839426e8539edc4d81"
+          },
+          {
+            "path": "tests/linux-relation-file-service-runtime.test.js",
+            "size": 48698,
+            "sha256": "302964a7d3b3b195d97b741ea32716c9d39ed93f2d8958a8342d73b4d7ea4f89"
+          },
+          {
+            "path": "tests/owner-admission.test.js",
+            "size": 9232,
+            "sha256": "6ee0666ab5f171583358dbfc48c335351d0a818ab4c331f85f084beb2fd8ae5a"
+          },
+          {
+            "path": "tests/owner-lock-addon.linux.test.js",
+            "size": 47115,
+            "sha256": "9353d0851d164a73978c1c540808c6c4bbaa893759474a6ac0f43f099aaeded5"
+          },
+          {
+            "path": "tests/owner-lock-binding.test.js",
+            "size": 2581,
+            "sha256": "d3d460eeb341f2e97f35df55475790abb8009af931024cecf40dc3c9a24a4ea2"
+          },
+          {
+            "path": "tests/owner-lock-compatibility.test.js",
+            "size": 3560,
+            "sha256": "a29ca727f58c7bfb317d8077d0f88af5cd818cb779b45cfa77d6fc9b70c35602"
+          },
+          {
+            "path": "tests/owner-lock-evidence-paths.test.js",
+            "size": 5367,
+            "sha256": "7a70568fb7eef0a78cab172c976d08fe72672e9c048a908a5b2dad69f428bffc"
+          },
+          {
+            "path": "tests/owner-state-snapshot.linux.test.js",
+            "size": 41678,
+            "sha256": "b59a7c5a127176914414bac810863bbc1f4fde3467ead0093522053c21c3b4a9"
+          },
+          {
+            "path": "tests/owner-state-snapshot.test.js",
+            "size": 12958,
+            "sha256": "bdc0725e1c5b972de7231edb200aad0756025ae8ad9324751ae3616f10184320"
+          },
+          {
+            "path": "tests/package-native-runtime.test.js",
+            "size": 7740,
+            "sha256": "c060b837af7cd69eb2fe68f0b3bc3a894085df1e082ba15a6019676e3589ba91"
+          },
+          {
+            "path": "tests/profile-v2.test.js",
+            "size": 5238,
+            "sha256": "5e798a484a0f089370443b87aed3f2d719ed3448fcffa1cf612532af1a5138bb"
+          },
+          {
+            "path": "tests/rclone-bisync-safety.test.js",
+            "size": 11145,
+            "sha256": "b15286bbc9c50623017ce5c8432596b266fd8c6bfb6bc811fd616e96e65af9c5"
+          },
+          {
+            "path": "tests/reality-transport-probe.test.js",
+            "size": 9902,
+            "sha256": "40eae71c9d113d26db937a10410c1eee1f0fa695a16d00877bf0c08b2bd63906"
+          },
+          {
+            "path": "tests/relation-file-service-manager.test.js",
+            "size": 176768,
+            "sha256": "eed995e2e2a95b7e19f0665a2aeacbb9f6e46409269c8ac3350b9f93f0fa6d30"
+          },
+          {
+            "path": "tests/relation-runtime-package.test.js",
+            "size": 13811,
+            "sha256": "a002352c9ba6020673f426c6bff55690fcc855f331eb2683229e21051993bfd1"
+          },
+          {
+            "path": "tests/relation-service-binding-catalog.test.js",
+            "size": 30122,
+            "sha256": "5eeb67ae5a5504cf1f9a238cd690397d56eb20e56fbd82d8592d8f07fb0011ca"
+          },
+          {
+            "path": "tests/relation-service-product-wiring.test.js",
+            "size": 25703,
+            "sha256": "4d192aa5c900630bcbe7f5c00115513d492c105b937a13fdbb9f1bb9b24d4d50"
+          },
+          {
+            "path": "tests/relation-service-startup.test.js",
+            "size": 22047,
+            "sha256": "52b0a7df18b169613ce2fd537fd76799efbe23d2dd67b83665848062f5fbe205"
+          },
+          {
+            "path": "tests/release-bundle.test.js",
+            "size": 4713,
+            "sha256": "aa1771a412be62b3fb9d65c93be250b5d5bcbeebbdb6c78dc56db1eb806f657a"
+          },
+          {
+            "path": "tests/runtime-epoch-launcher.test.js",
+            "size": 53681,
+            "sha256": "a05f570817dddbc9b2f020a404396296bf03317f953f4891ba231ef2fad6deb5"
+          },
+          {
+            "path": "tests/server-s3-internal-endpoint.test.js",
+            "size": 5885,
+            "sha256": "2487c8905211c2e867df292342b4bcbb010f6ad56a4ef92480c4655de1265cb3"
+          },
+          {
+            "path": "tests/server-state-lock.test.js",
+            "size": 9167,
+            "sha256": "8cd8f82ffbd6c329ba47384ece9e08fb35569d7cd9d680c8ef846dcb122dc89e"
+          },
+          {
+            "path": "tests/setup-readiness.test.js",
+            "size": 3695,
+            "sha256": "6b25b931e3e404d40e78ff915c9a3e44936143f092fdae61d8d8d1744e12e719"
+          },
+          {
+            "path": "tests/setup-readiness-http.test.js",
+            "size": 4496,
+            "sha256": "78c3dfa41633c85275b98e86e60083adab8a623c07c1fcb2215e82fa0deab86d"
+          },
+          {
+            "path": "tests/sftp-access-marker.test.js",
+            "size": 4799,
+            "sha256": "60b1a30f2b20e3344b950654fa455afe3485c448eee095c3a0b41473514ab220"
+          },
+          {
+            "path": "tests/sftp-relation-runtime-package.test.js",
+            "size": 6888,
+            "sha256": "c2a9d90ee9ffb136292e5e21d51582e4f535205430796ab4385b0e059ac9dbbd"
+          },
+          {
+            "path": "tests/sftp-service-product-composition.test.js",
+            "size": 4600,
+            "sha256": "f320b5a3f51f19d367d2ed25f4bede4f0f21bc3ddff38e3941f542c4b834b7bb"
+          },
+          {
+            "path": "tests/shared-directory-service.test.js",
+            "size": 9359,
+            "sha256": "b8535033c1658d55ca75f9773450eadbe8ca1c2d5d9b194b3d5bff67e78605dc"
+          },
+          {
+            "path": "tests/singbox-control.test.js",
+            "size": 3810,
+            "sha256": "50c0e05f67d4563181b967bf7cd052abb5e816401cdfd64debd29b6a5f6d1fe2"
+          },
+          {
+            "path": "tests/startup-admission-integration.test.js",
+            "size": 49652,
+            "sha256": "e8d350f2bcb39c0a4cceece8ed39e2ebc49df871336dddedfd48a4fea178b5ea"
+          },
+          {
+            "path": "tests/startup-maintenance-entry.test.js",
+            "size": 31108,
+            "sha256": "6f955b88c598222bbb2126e82f8fccf71861a53a38a77faafbdcf220fd61e88e"
+          },
+          {
+            "path": "tests/startup-quiescence-state-parser.test.js",
+            "size": 34701,
+            "sha256": "dc894633bd62d8deb036f320692d74ba2ea74a9e569a3191796abae10818ec7b"
+          },
+          {
+            "path": "tests/strict-state-json.test.js",
+            "size": 9367,
+            "sha256": "f1a279b47285e33455c8848255f8bb9c74735bc01fcfdab706716b732f29dde0"
+          },
+          {
+            "path": "tests/sync-direction-authorization.test.js",
+            "size": 4986,
+            "sha256": "2f8e8089fad4a8af0557bff1a2545c4ca5fca0b69c93e4ba1f12201b6b8ae1af"
+          },
+          {
+            "path": "tests/sync-space-mode.test.js",
+            "size": 8791,
+            "sha256": "19c2c0c2e70870cff2a13d6bf1d22ca3f1298a7e4fe224d5126d08f8332fb254"
+          },
+          {
+            "path": "tests/test_runtime_launcher_capability.py",
+            "size": 5504,
+            "sha256": "9820d76205e4a935b9792f2e613acb0b893d073836bffbaa585b6c912bce5d59"
+          },
+          {
+            "path": "tests/ui-dom-contract.test.js",
+            "size": 46121,
+            "sha256": "a97babc566382efa4e55f949325e655f8cab8d885d65cc467daacab310389894"
+          }
+        ]
+      },
+      "files": [
+        {
+          "name": "Syncraft.exe",
+          "size": 205593600,
+          "sha256": "8901bdd2254b5f20646b0e4a55738d3e42127c650314252505defc209c233df7"
+        },
+        {
+          "name": "resources/app/package.json",
+          "size": 117,
+          "sha256": "b8cebc9cccb9de41c01388a425b321d578223a6b2bd84036ee8bba063f05ecd0"
+        },
+        {
+          "name": "resources/app/client/electron/main.cjs",
+          "size": 12458,
+          "sha256": "29145feb02c9fccfc9ff95870f041fc55104af271f2ba841468448b1d5f3939f"
+        },
+        {
+          "name": "resources/app/client/electron/preload.cjs",
+          "size": 173,
+          "sha256": "0c9f71409c442b4640265235f022456e2d1a30c218e0d78084d69098449dcc4a"
+        },
+        {
+          "name": "resources/app/client/src/clientServer.js",
+          "size": 177051,
+          "sha256": "696402db7bc84c011b3af49d72542d3612d7d791bde7b94aa4a95b617966081b"
+        },
+        {
+          "name": "resources/app/client/src/paths.js",
+          "size": 8248,
+          "sha256": "acd39c3a32deb83c81735ac1b852060ce95fd43e98e1a452f490a9f74b953273"
+        },
+        {
+          "name": "resources/app/client/src/store.js",
+          "size": 31398,
+          "sha256": "79359cb273c2b49df65d8dde39253235ad7c6d736bb9add3cb41ce9f22f2033b"
+        },
+        {
+          "name": "resources/app/client/src/enrollmentSession.js",
+          "size": 19060,
+          "sha256": "0c8ace0ad3d80b3de87fdb2583959a7568ea4651708ecdcb5bb8820078696a52"
+        },
+        {
+          "name": "resources/app/client/src/enrollmentDiagnostics.js",
+          "size": 1784,
+          "sha256": "950679b3feae0af38ee43344a84421735c33d643ea7058d9dbf8ac1e3bc81883"
+        },
+        {
+          "name": "resources/app/client/src/sftpAccessMarker.js",
+          "size": 5228,
+          "sha256": "677debae755aafc86012f660d5e87b56c9722d0c8521eae860291b337d878a80"
+        },
+        {
+          "name": "resources/app/client/src/connectionRepair.js",
+          "size": 10517,
+          "sha256": "0fbe2ae1e93450e6f757ef7dc238f6b8c668b8b8c57bdda95cb7633143aaa698"
+        },
+        {
+          "name": "resources/app/client/src/firstBisyncConflict.js",
+          "size": 30191,
+          "sha256": "24a836f7a1500e03b5a0af03773706a98eb6fa0cf80fd9f930b7dab62c37152d"
+        },
+        {
+          "name": "resources/app/client/src/syncRecovery.js",
+          "size": 49055,
+          "sha256": "f8e8eb1313fd852007d0b27b6bf6f2b7b8bbebc4e1f9effc09fd5effa64bd5f7"
+        },
+        {
+          "name": "resources/app/src/core/dataAuthorization.js",
+          "size": 12703,
+          "sha256": "803d228aec2d3a37162575c0b1e9dfdec07c5627cdc5099abc1f6a9fd094d346"
+        },
+        {
+          "name": "resources/app/client/src/bootstrapTransport.js",
+          "size": 8273,
+          "sha256": "6c6725de6e846a5e2f35914de97a3f96047a88749ea15d0f4fc33541055f4125"
+        },
+        {
+          "name": "resources/app/client/src/diagnosticBundle.js",
+          "size": 19918,
+          "sha256": "2e3f022381bcc83d227525b54db0e7ca4a2c2d25e2b3a903c84d2eac3f2e7fe8"
+        },
+        {
+          "name": "resources/app/client/src/processRunner.js",
+          "size": 11435,
+          "sha256": "ea287ab5365fdce3c7a574609f090e7738f12af7a094d085be69b59ead78384f"
+        },
+        {
+          "name": "resources/app/client/src/rcloneStats.js",
+          "size": 9879,
+          "sha256": "4c912fe598ae573511dbd23e91ca46a65a7d333a43e889e02e946f4d05b1c074"
+        },
+        {
+          "name": "resources/app/client/src/profileImport.js",
+          "size": 8505,
+          "sha256": "e273a4da91dceb8a5162e9de20d7d61c971482c12bb29a8940fef8650934129f"
+        },
+        {
+          "name": "resources/app/client/src/launcher.cjs",
+          "size": 2344,
+          "sha256": "3b7ac50d7330671e96db7a6b83bdc6cc44c2ce0e2d54c55a0a0b4853945aa45e"
+        },
+        {
+          "name": "resources/app/client/src/Launcher.cs",
+          "size": 6395,
+          "sha256": "5ea11de3b76e239e777140e3682cf7d2da32d4c6ec353b8559d572adec678f30"
+        },
+        {
+          "name": "resources/app/client/public/index.html",
+          "size": 23684,
+          "sha256": "71b9e474062575de8ad3f216e6780e086ed0bee3fb0257443e40e724f9444abb"
+        },
+        {
+          "name": "resources/app/client/public/app.js",
+          "size": 133924,
+          "sha256": "7ee69d59f60cd46ecc0ced12305689ec65db5f39c523e976ab28498d7df56d75"
+        },
+        {
+          "name": "resources/app/client/public/styles.css",
+          "size": 26523,
+          "sha256": "0a5d33108a5e7555bbb902dd5603cea6079bca1e0885086625e8a82e42490a84"
+        },
+        {
+          "name": "resources/app/src/core/index.js",
+          "size": 2866,
+          "sha256": "2fe68911994ef3842282f59a0044096063fde48d7d7ca3f8a69b8ba96043e10f"
+        },
+        {
+          "name": "resources/app/src/core/channelImportCode.js",
+          "size": 3677,
+          "sha256": "a60564e57071dc67f290ddce485a3e2496be3043d444368ea4bbdc4950dedbc6"
+        },
+        {
+          "name": "resources/app/docs/INTERFACE_CONTRACT.md",
+          "size": 211267,
+          "sha256": "3604916470f17ca1c31b4e761a92e6e79a23a264a781cd068236192a7ae798e7"
+        },
+        {
+          "name": "resources/app/docs/API_MATRIX.md",
+          "size": 30366,
+          "sha256": "7a0739bc7fbd648eb7edfeb072a9bf9c1e5513b963cca0a17ae504dece95a9b9"
+        },
+        {
+          "name": "resources/app/docs/DEPLOYMENT_AND_MIGRATION_GUIDE.md",
+          "size": 49877,
+          "sha256": "6136feaf4031c0f62a821dd90f9378947114bee11efd64c281587e1c7f378757"
+        },
+        {
+          "name": "resources/app/docs/INTERNAL_TRIAL_CHECKLIST.md",
+          "size": 14568,
+          "sha256": "44c18d8187630295217cc42a4081e49b35eb3c8c6c82a3f5cc4144a279cb7447"
+        },
+        {
+          "name": "resources/app/docs/PILOT_RUNBOOK.md",
+          "size": 8587,
+          "sha256": "1b7375d849b25d81b37bce7ea02df39f312f126d815d56ccc9f6105aa13754fc"
+        },
+        {
+          "name": "resources/app/docs/PILOT_ACCEPTANCE_CRITERIA.md",
+          "size": 5352,
+          "sha256": "3cb619061d86b23424978f5e2dfa646f6e9fc3d8235c4556f3f155dd9379b1bb"
+        },
+        {
+          "name": "resources/app/docs/PILOT_SUPPORT_GUIDE.md",
+          "size": 4266,
+          "sha256": "067e48d9ce1e7ccfef10e160d67d17c237af0a5526070ec4ed63a8c1a3413dab"
+        },
+        {
+          "name": "resources/bin/win32/binaries.lock.json",
+          "size": 643,
+          "sha256": "2628eb8458be22d24ac1e1c45a494b88578d34ee94bfafbc29e62951b8070af7"
+        },
+        {
+          "name": "resources/bin/win32/sing-box.exe",
+          "size": 45403136,
+          "sha256": "db0d779948214cf761011d154c3a5da36df20394fa01a9fc798f1dc39fe9d183"
+        },
+        {
+          "name": "resources/bin/win32/rclone.exe",
+          "size": 78717440,
+          "sha256": "3ac0dba3a883555f0c0daabc8a87c8f78e531f339780335e07beadf77734b5bc"
+        }
+      ]
+    },
+    "portable": {
+      "schemaVersion": 1,
+      "app": "singbox-folder-sync",
+      "package": "SyncraftClient",
+      "version": "0.3.0-rc.3",
+      "builtAt": "2026-11-07T11:27:17.1433415Z",
+      "sourceTreeHash": "4765c02d125a54861f7e467e127b401a22548ad9ecb10583f44cffc3116c8822",
+      "buildId": "sfsc-4765c02d125a",
+      "sourceFingerprint": {
+        "algorithm": "sfsc-source-tree-sha256-v1",
+        "hash": "4765c02d125a54861f7e467e127b401a22548ad9ecb10583f44cffc3116c8822",
+        "buildId": "sfsc-4765c02d125a",
+        "fileCount": 348,
+        "inputs": [
+          {
+            "path": "client/electron/main.cjs",
+            "size": 12458,
+            "sha256": "29145feb02c9fccfc9ff95870f041fc55104af271f2ba841468448b1d5f3939f"
+          },
+          {
+            "path": "client/electron/package.json",
+            "size": 98,
+            "sha256": "63e46a0797eb86cb496efb2cb90b72c384d85ffaa08cb1122dd9cd12105f4ceb"
+          },
+          {
+            "path": "client/electron/preload.cjs",
+            "size": 173,
+            "sha256": "0c9f71409c442b4640265235f022456e2d1a30c218e0d78084d69098449dcc4a"
+          },
+          {
+            "path": "client/public/app.js",
+            "size": 133924,
+            "sha256": "7ee69d59f60cd46ecc0ced12305689ec65db5f39c523e976ab28498d7df56d75"
+          },
+          {
+            "path": "client/public/index.html",
+            "size": 23684,
+            "sha256": "71b9e474062575de8ad3f216e6780e086ed0bee3fb0257443e40e724f9444abb"
+          },
+          {
+            "path": "client/public/styles.css",
+            "size": 26523,
+            "sha256": "0a5d33108a5e7555bbb902dd5603cea6079bca1e0885086625e8a82e42490a84"
+          },
+          {
+            "path": "client/resources/bin/win32/binaries.lock.json",
+            "size": 643,
+            "sha256": "2628eb8458be22d24ac1e1c45a494b88578d34ee94bfafbc29e62951b8070af7"
+          },
+          {
+            "path": "client/scripts/build-client.ps1",
+            "size": 11952,
+            "sha256": "f39b261d6527adc11527913620e9ea9ad1ae68df0e20d24237bcfa7fe019a1c9"
+          },
+          {
+            "path": "client/scripts/build-desktop.ps1",
+            "size": 11683,
+            "sha256": "1a3bece818a0c9250caf26df6b748be9b3ab59046c1dcb83e44ae242edd4693c"
+          },
+          {
+            "path": "client/scripts/download-binaries.ps1",
+            "size": 6382,
+            "sha256": "cc6b4eba2649f8b0a9c7c9b1a96586f7abd580d5a4afcc02796d9ebc7a2ab1c1"
+          },
+          {
+            "path": "client/src/bootstrapTransport.js",
+            "size": 8273,
+            "sha256": "6c6725de6e846a5e2f35914de97a3f96047a88749ea15d0f4fc33541055f4125"
+          },
+          {
+            "path": "client/src/clientServer.js",
+            "size": 177051,
+            "sha256": "696402db7bc84c011b3af49d72542d3612d7d791bde7b94aa4a95b617966081b"
+          },
+          {
+            "path": "client/src/connectionRepair.js",
+            "size": 10517,
+            "sha256": "0fbe2ae1e93450e6f757ef7dc238f6b8c668b8b8c57bdda95cb7633143aaa698"
+          },
+          {
+            "path": "client/src/diagnosticBundle.js",
+            "size": 19918,
+            "sha256": "2e3f022381bcc83d227525b54db0e7ca4a2c2d25e2b3a903c84d2eac3f2e7fe8"
+          },
+          {
+            "path": "client/src/enrollmentDiagnostics.js",
+            "size": 1784,
+            "sha256": "950679b3feae0af38ee43344a84421735c33d643ea7058d9dbf8ac1e3bc81883"
+          },
+          {
+            "path": "client/src/enrollmentRelation.js",
+            "size": 13753,
+            "sha256": "1aa1756f1a178c31162f2444092e48060035d7025696e886e4bb5cf0579eabe9"
+          },
+          {
+            "path": "client/src/enrollmentSession.js",
+            "size": 19060,
+            "sha256": "0c8ace0ad3d80b3de87fdb2583959a7568ea4651708ecdcb5bb8820078696a52"
+          },
+          {
+            "path": "client/src/firstBisyncConflict.js",
+            "size": 30191,
+            "sha256": "24a836f7a1500e03b5a0af03773706a98eb6fa0cf80fd9f930b7dab62c37152d"
+          },
+          {
+            "path": "client/src/launcher.cjs",
+            "size": 2344,
+            "sha256": "3b7ac50d7330671e96db7a6b83bdc6cc44c2ce0e2d54c55a0a0b4853945aa45e"
+          },
+          {
+            "path": "client/src/Launcher.cs",
+            "size": 6395,
+            "sha256": "5ea11de3b76e239e777140e3682cf7d2da32d4c6ec353b8559d572adec678f30"
+          },
+          {
+            "path": "client/src/paths.js",
+            "size": 8248,
+            "sha256": "acd39c3a32deb83c81735ac1b852060ce95fd43e98e1a452f490a9f74b953273"
+          },
+          {
+            "path": "client/src/processRunner.js",
+            "size": 11435,
+            "sha256": "ea287ab5365fdce3c7a574609f090e7738f12af7a094d085be69b59ead78384f"
+          },
+          {
+            "path": "client/src/profileImport.js",
+            "size": 8505,
+            "sha256": "e273a4da91dceb8a5162e9de20d7d61c971482c12bb29a8940fef8650934129f"
+          },
+          {
+            "path": "client/src/rcloneStats.js",
+            "size": 9879,
+            "sha256": "4c912fe598ae573511dbd23e91ca46a65a7d333a43e889e02e946f4d05b1c074"
+          },
+          {
+            "path": "client/src/sftpAccessMarker.js",
+            "size": 5228,
+            "sha256": "677debae755aafc86012f660d5e87b56c9722d0c8521eae860291b337d878a80"
+          },
+          {
+            "path": "client/src/store.js",
+            "size": 31398,
+            "sha256": "79359cb273c2b49df65d8dde39253235ad7c6d736bb9add3cb41ce9f22f2033b"
+          },
+          {
+            "path": "client/src/syncRecovery.js",
+            "size": 49055,
+            "sha256": "f8e8eb1313fd852007d0b27b6bf6f2b7b8bbebc4e1f9effc09fd5effa64bd5f7"
+          },
+          {
+            "path": "client/src/syncRelation.js",
+            "size": 33230,
+            "sha256": "925fb6e3bb2b12eb607a402e0acfb0fed46effafa1dab6e0934597b1b7c68111"
+          },
+          {
+            "path": "docs/API_MATRIX.md",
+            "size": 30366,
+            "sha256": "7a0739bc7fbd648eb7edfeb072a9bf9c1e5513b963cca0a17ae504dece95a9b9"
+          },
+          {
+            "path": "docs/ARCHITECTURE_REVIEW_2026-09-16.md",
+            "size": 16306,
+            "sha256": "3a2e7a90bd3bbd984cfcad6b3e34526469895704e7989bed84c6670dfd896161"
+          },
+          {
+            "path": "docs/BETA_BUGFIX_PLAN.md",
+            "size": 20408,
+            "sha256": "67d809892544ee348041022add324754eb347eea15f237c93d37f0607e2a92f5"
+          },
+          {
+            "path": "docs/BETA_RELEASE_NOTES_0.2.0-beta.2.md",
+            "size": 2057,
+            "sha256": "124f96b14ef25a84301475275c3ea11fd85e9d8bfc6380765618ed1b17a59097"
+          },
+          {
+            "path": "docs/client-design.md",
+            "size": 21110,
+            "sha256": "6e9ac67c66fa72324f7be06e01236f9799f78641635609fde3eab9b314fe6d7b"
+          },
+          {
+            "path": "docs/DELIVERY_REPOSITORIES.md",
+            "size": 5440,
+            "sha256": "d2c7830eda995594a24cf2564ce30b2885363947faee762dc4919e68007c8aba"
+          },
+          {
+            "path": "docs/DEPLOYMENT_AND_MIGRATION_GUIDE.md",
+            "size": 49877,
+            "sha256": "6136feaf4031c0f62a821dd90f9378947114bee11efd64c281587e1c7f378757"
+          },
+          {
+            "path": "docs/DEVELOPMENT_EXECUTION_2026-10-19.md",
+            "size": 426728,
+            "sha256": "1ec47422b3c156b72171305bbf6cce97d3f3c2cd2751bf319fae1936180cbc7f"
+          },
+          {
+            "path": "docs/DEVELOPMENT_PLAN_2026-10-19.md",
+            "size": 37108,
+            "sha256": "26d314472e835d5fdd0c479f533a29fec56f73259102e0880ebb480b08980524"
+          },
+          {
+            "path": "docs/DIRECTORY_ROOT_CONTRACT.md",
+            "size": 11805,
+            "sha256": "2d50703d27bbc788238f4f28ffa370fcbb6ae8fd4ee857e2794dec08be34444c"
+          },
+          {
+            "path": "docs/handover/api-spec.md",
+            "size": 498,
+            "sha256": "0bb824618b9c357f4817d3b054d898b6d82f4f509cd4b7849de1c3db64b7be7a"
+          },
+          {
+            "path": "docs/handover/deployment-guide.md",
+            "size": 467,
+            "sha256": "8e11183870b7296dbba6badc0ab6d592bc5be3f7ed67fbf06513aec45235bf21"
+          },
+          {
+            "path": "docs/handover/migration-checklist.md",
+            "size": 497,
+            "sha256": "56821312a232ffa19ac0b0d22561c02a0cb6c5f643ce715c09490b135b4c045b"
+          },
+          {
+            "path": "docs/handover/operations-runbook.md",
+            "size": 512,
+            "sha256": "684e875f8620cc60caeceb76272b9c96edc9f33d311a17edd7bf1588a3d877dd"
+          },
+          {
+            "path": "docs/handover/README.md",
+            "size": 822,
+            "sha256": "554d701b2f853bbfeb40910b9299c117b3b106c36ebfb9c08931c286b8e20e60"
+          },
+          {
+            "path": "docs/handover/release-notes.md",
+            "size": 475,
+            "sha256": "2143d60c6ade457cb5f7c9defe5a2707babe9628422b18104962998385dfe992"
+          },
+          {
+            "path": "docs/handover/software-design-spec.md",
+            "size": 529,
+            "sha256": "95372b6a9dd0e5685ac37ecc3211b0fc64bf1e8dff1b636d2de9037b41c3c978"
+          },
+          {
+            "path": "docs/images/client-first-run.png",
+            "size": 29258,
+            "sha256": "2627fe87e78449c2f163bf5c86f4f273df456ffa987316da2dda6c44341f3e7f"
+          },
+          {
+            "path": "docs/images/client-settings-import.png",
+            "size": 17628,
+            "sha256": "7b5d11ae2aeffcbaeb0ce41880df047f0c0a43478beac4e31d847976d38d15c9"
+          },
+          {
+            "path": "docs/images/client-task-setup.png",
+            "size": 70017,
+            "sha256": "0c4e5dae0e8ef282a19438af4432947055da3d73e22b0fed7524bf1bcffa612b"
+          },
+          {
+            "path": "docs/images/README.md",
+            "size": 2890,
+            "sha256": "d89801a92b83215c8dfa3aa3441cdad453ce714f66d4906b8fd9ac97f6d9eb98"
+          },
+          {
+            "path": "docs/INTERFACE_CONTRACT.md",
+            "size": 211267,
+            "sha256": "3604916470f17ca1c31b4e761a92e6e79a23a264a781cd068236192a7ae798e7"
+          },
+          {
+            "path": "docs/INTERNAL_TRIAL_CHECKLIST.md",
+            "size": 14568,
+            "sha256": "44c18d8187630295217cc42a4081e49b35eb3c8c6c82a3f5cc4144a279cb7447"
+          },
+          {
+            "path": "docs/N1_SMOKE_REPORT.md",
+            "size": 5949,
+            "sha256": "a15b152b43e4cf2aa9b798b300c6d490e9eaf3694dbfc916105076cd4a3ea452"
+          },
+          {
+            "path": "docs/P2_DIRECTORY_ADAPTER_DECISION_2026-10-20.md",
+            "size": 14080,
+            "sha256": "02a41256fe151ab8f2eb6949f40f5b2b67d9f53a4360738989e219342d11f89b"
+          },
+          {
+            "path": "docs/P2_PRODUCT_WIRING_DECISION_2026-10-23.md",
+            "size": 7503,
+            "sha256": "5905d6fed0a58ab3e040ce9353fa4b7e3ffeff2b25562bb4ac56f63b2763819f"
+          },
+          {
+            "path": "docs/P2_RUNTIME_ADAPTER_CONTRACT.md",
+            "size": 16556,
+            "sha256": "3d5208ad42e7ad734965b99b3b22fc6c4e8dc310cc8ed69633fb1be36e21f5ab"
+          },
+          {
+            "path": "docs/P2_SFTP_RELATION_SERVICE_CONTRACT.md",
+            "size": 20047,
+            "sha256": "ea72d8113f272e455620de33256df37beb8253c442a13fe879e18b3995852fe9"
+          },
+          {
+            "path": "docs/PILOT_ACCEPTANCE_CRITERIA.md",
+            "size": 5352,
+            "sha256": "3cb619061d86b23424978f5e2dfa646f6e9fc3d8235c4556f3f155dd9379b1bb"
+          },
+          {
+            "path": "docs/PILOT_RUNBOOK.md",
+            "size": 8587,
+            "sha256": "1b7375d849b25d81b37bce7ea02df39f312f126d815d56ccc9f6105aa13754fc"
+          },
+          {
+            "path": "docs/PILOT_SUPPORT_GUIDE.md",
+            "size": 4266,
+            "sha256": "067e48d9ce1e7ccfef10e160d67d17c237af0a5526070ec4ed63a8c1a3413dab"
+          },
+          {
+            "path": "docs/PRODUCT_LOGIC_UI_REDESIGN_PLAN.md",
+            "size": 31479,
+            "sha256": "a876637829efef36149f5c0b59885d6025455f0f6ff45770bdd7cf17507eb149"
+          },
+          {
+            "path": "docs/PRODUCTIZATION_ROADMAP.md",
+            "size": 8483,
+            "sha256": "52f91b6acf4d010f95c294a94d148f2d5569177cdb057af70827c2c895b277cb"
+          },
+          {
+            "path": "docs/PROJECT_HANDOFF.md",
+            "size": 13505,
+            "sha256": "c1c1f33f5e43cf21454216f714cf775b8e840e4b9331f05cc535f7c83c01ad7e"
+          },
+          {
+            "path": "docs/protocol/00-http-basics.md",
+            "size": 2989,
+            "sha256": "9d81ac9784f8e1dea22898eb3d41b4927ee8060334c8017d479f2086d3922534"
+          },
+          {
+            "path": "docs/protocol/01-error-codes.md",
+            "size": 2131,
+            "sha256": "413ab611e9035801acd71960a8dc940cc2036c926bcc61bf063617b301b57bec"
+          },
+          {
+            "path": "docs/protocol/02-heartbeat-device-sync.md",
+            "size": 2827,
+            "sha256": "dbf3b938db6cf017cab98ee0c654d2c06101175e53159bc03fa72ddea1403890"
+          },
+          {
+            "path": "docs/protocol/03-diagnostic-bundle.md",
+            "size": 2668,
+            "sha256": "14b04db274985c094c3799d0455287c0467ab928fd7d372634fb5c7ccef85616"
+          },
+          {
+            "path": "docs/protocol/04-claim-lifecycle.md",
+            "size": 3969,
+            "sha256": "46763d7a3a35ec409bebccfc8c5e313a00b2989ab1c93240f5faa42ab58328bb"
+          },
+          {
+            "path": "docs/protocol/05-profile-import.md",
+            "size": 3714,
+            "sha256": "cca70be0ec84545369500dac0087b6cfeeb82317584b0a4df13f41f88bf26f01"
+          },
+          {
+            "path": "docs/protocol/06-runtime-diagnostics.md",
+            "size": 3573,
+            "sha256": "61e86a40470c0914e052484dabd977ada853bbea2a17953ecffac9ddd1fd165e"
+          },
+          {
+            "path": "docs/protocol/07-enrollment-v1.md",
+            "size": 21843,
+            "sha256": "0c36396881a178e8ce78c6f0c053b0f6d0f224249c890163ea7076368cd88e32"
+          },
+          {
+            "path": "docs/protocol/PROTOCOL_V1_BASELINE.md",
+            "size": 2401,
+            "sha256": "358d2d87721fca562293e8c67c074d1c12af4617b8eb12ce7ea05bb857e9e1e6"
+          },
+          {
+            "path": "docs/protocol/README.md",
+            "size": 3785,
+            "sha256": "9fa49e15a1526db66570be169436841c706fa19f97a87e1671ff915f29b3e928"
+          },
+          {
+            "path": "docs/protocol/schemas/claim-lifecycle.json",
+            "size": 709,
+            "sha256": "b198fa61e62814979d18b71b818acfdec6e4e75ab5f878bb2fc7a279c9d7e5c5"
+          },
+          {
+            "path": "docs/protocol/schemas/diagnostic-bundle.json",
+            "size": 2019,
+            "sha256": "55a364b13540b1b5d5e054650703bd1eee82742786d21392aaceef52c3ad561b"
+          },
+          {
+            "path": "docs/protocol/schemas/error-codes.json",
+            "size": 13805,
+            "sha256": "05c6194047c167ed64c2b7fa995da893efd6fdc665166f3983629e3c6104ff4c"
+          },
+          {
+            "path": "docs/protocol/schemas/heartbeat-device-sync.json",
+            "size": 1261,
+            "sha256": "f968a2dc4a80fadd29b7f1cecd1de74be17b9008e3b5a55494934eae11696330"
+          },
+          {
+            "path": "docs/protocol/schemas/http-basics.json",
+            "size": 1233,
+            "sha256": "03eb83db9075591ee154f87a975e28412bb87ddd3008d50d71cd8b22321f408b"
+          },
+          {
+            "path": "docs/protocol/schemas/profile-import.json",
+            "size": 1297,
+            "sha256": "3733cef9b516c80238bfbf8593b0859f8250466a7cc87ea58b67bec12de48ccb"
+          },
+          {
+            "path": "docs/protocol/schemas/protocol-v1-baseline.json",
+            "size": 888,
+            "sha256": "1e92cd2529f722c49c87033a225c38e7f54c770dc90e11423b40591469691840"
+          },
+          {
+            "path": "docs/protocol/schemas/runtime-diagnostics.json",
+            "size": 1482,
+            "sha256": "3cc72a57ee6b54e422c47ffddd846c72dadbfcfba80900317150bad964e667c9"
+          },
+          {
+            "path": "docs/server-design.md",
+            "size": 4604,
+            "sha256": "8c946b47d2b78fdff01ed3ee9e38be0f082445a1bc7462dbed4055064586f081"
+          },
+          {
+            "path": "docs/SFTP_ADAPTER_PROBE_2026-10-19.md",
+            "size": 11916,
+            "sha256": "631033029d72a67e351df98d4a1b53c2a8b7234c7ba023d9e78519041798a43a"
+          },
+          {
+            "path": "docs/SOFTWARE_DESIGN_SPEC.md",
+            "size": 29496,
+            "sha256": "3bb14dcbc1b6418c671dd73594c7fb52b93ef3fcfaf0e58958bfc80d91982986"
+          },
+          {
+            "path": "docs/SYNC_ID_PRODUCT_REQUIREMENT.md",
+            "size": 5365,
+            "sha256": "477ec308530df7bfdb7d8f79acc8d9fbf86683b569a468936325d4e1df635100"
+          },
+          {
+            "path": "docs/SYNC_ID_SECURITY_IMPLEMENTATION_PLAN.md",
+            "size": 8407,
+            "sha256": "53b76c6f0f29aa7c612604cb830e8d6211a7a5f6aaf2dce1033c27acf1a61485"
+          },
+          {
+            "path": "docs/T_KEY_PROTOCOL.md",
+            "size": 9178,
+            "sha256": "8bafc04da9a23d9b2d155882b9877162283e5b0b3bfe771954b3510ceaf497b5"
+          },
+          {
+            "path": "docs/V04_DESIGN_REVIEW.md",
+            "size": 9611,
+            "sha256": "5fdf189440c5bb1dec4bc3ab4e1cad3bcb06d7079aff257ee695da83ac30b6e5"
+          },
+          {
+            "path": "docs/WEBDAV_ADAPTER_PROBE_2026-10-19.md",
+            "size": 10366,
+            "sha256": "8ab880d757d3173e284a01171ae616c2bdf7e453d38d6a2a8284a70a5cc39d54"
+          },
+          {
+            "path": "native/sfsc-owner-lock-addon/binding.gyp",
+            "size": 370,
+            "sha256": "446192dbab91417934947670a224cac395c4c00c9eb8cc228755b972b41efe68"
+          },
+          {
+            "path": "native/sfsc-owner-lock-addon/src/owner_lock.cc",
+            "size": 39729,
+            "sha256": "6d5eab14221eca76c4356b20690cce2ce4fdd9db1f71acdd31609598ca9b9ca2"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/child_linux.go",
+            "size": 16469,
+            "sha256": "ef75ac1e05ce7985e7558eeb9743c6f4dc506f98ec2c964f26c1d313173fd033"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/main_linux.go",
+            "size": 36666,
+            "sha256": "19ebfcf27b77d179c86cecd1b98d1f0a309be9a10f4e816a739c59648a9e9a91"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/proc_linux.go",
+            "size": 20779,
+            "sha256": "ead63553b5686f0c51873e2c3e4c757e9d4bdce065002d9d570ddc30877d6bed"
+          },
+          {
+            "path": "native/sfsc-relation-supervisor/supervisor_linux_test.go",
+            "size": 27401,
+            "sha256": "5d638f7c2fab52392cf9ab415d04c8644a6c3b4bff912b2228dafe8b674a7a86"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_linux.go",
+            "size": 41478,
+            "sha256": "909f94bbb14dd4c768ee0ae2534664144803e3d3a62861d1cde0fce29c3f861a"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_linux_test.go",
+            "size": 67415,
+            "sha256": "f00a3066b40b752f603461eb42068dad9927691a984bc630a47700952d77f608"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_v2_linux.go",
+            "size": 9375,
+            "sha256": "a38a32ce1496df08d465ad5ae223f20b8ca4f161b4d1e97b3fff7f5eb4fb6afb"
+          },
+          {
+            "path": "native/sfsc-root-guard/exec_service_v2_linux_test.go",
+            "size": 5869,
+            "sha256": "97591ed9e4a4ea919ca0605f94f45004a19cf398a25ea554e803ce4e236db445"
+          },
+          {
+            "path": "native/sfsc-root-guard/main_linux.go",
+            "size": 17449,
+            "sha256": "b7f112eac79b39a1be25c0ddf56a768c395d73b34a3068a8aab757f0b2be425f"
+          },
+          {
+            "path": "native/sfsc-root-guard/main_linux_test.go",
+            "size": 13168,
+            "sha256": "a2f477cc3cbe32c8e038ceae19b460f597421b3b6e7bf6b32a194df648e779cd"
+          },
+          {
+            "path": "native/sfsc-root-guard/signal_service_linux.go",
+            "size": 43631,
+            "sha256": "473ca14115af79b1bd19bb5667ea6c0dacf7f982c5a5d236d463bde32f5063df"
+          },
+          {
+            "path": "native/sfsc-root-guard/signal_service_linux_test.go",
+            "size": 84987,
+            "sha256": "7686b17a58a05c7a0d47a1fd50ca18779dc03f307f027300abe20c59e47d17d6"
+          },
+          {
+            "path": "native/sfsc-sftp-service/filetime_linux.go",
+            "size": 657,
+            "sha256": "9254806c7398ea359c736f6142eeaa55155fb5f55bd639024de450434110624c"
+          },
+          {
+            "path": "native/sfsc-sftp-service/filetime_windows.go",
+            "size": 839,
+            "sha256": "29360c47e5af8100f6385845e806153d0bf0b80470d987674a54263568ab29ae"
+          },
+          {
+            "path": "native/sfsc-sftp-service/go.mod",
+            "size": 215,
+            "sha256": "0d3a4466e0ac7a6b3f280bfb0c608a0f2daf090839671719444d8dd4eb44b941"
+          },
+          {
+            "path": "native/sfsc-sftp-service/go.sum",
+            "size": 1453,
+            "sha256": "978cac36790a626ddb27f51bdd6529a9c47e9e00c45b75c53b6c7f38a3f2b40b"
+          },
+          {
+            "path": "native/sfsc-sftp-service/hardlink_linux.go",
+            "size": 396,
+            "sha256": "9417753fc3c1124276192719fa25cb7df553532114a892bb46dc8f2ba4c1bf3f"
+          },
+          {
+            "path": "native/sfsc-sftp-service/hardlink_windows.go",
+            "size": 408,
+            "sha256": "9ae409b811ac872b22865a31bc93520f0cba7e77ed1d77966319486489f99a0e"
+          },
+          {
+            "path": "native/sfsc-sftp-service/main.go",
+            "size": 18268,
+            "sha256": "4ffa0b56e941d2b7c74cafba698a9245abd47316304a2182a2ca62ebec08005a"
+          },
+          {
+            "path": "native/sfsc-sftp-service/main_test.go",
+            "size": 14819,
+            "sha256": "51e6750d284f10acfdb02a7ee4cbc392b3b132eca8ca3736d368101496cdbec9"
+          },
+          {
+            "path": "native/sfsc-sftp-service/README.md",
+            "size": 4216,
+            "sha256": "c186ad3f707fecc68d399c02eefb46b1081487e558fe8f59ccbca463327a6777"
+          },
+          {
+            "path": "native/sfsc-sftp-service/special_linux_test.go",
+            "size": 911,
+            "sha256": "e7b8f9716414030d7973d7883e88091295e16606b0dd465f8f912ac149240798"
+          },
+          {
+            "path": "package.json",
+            "size": 2899,
+            "sha256": "169c2f780090efb53f13ca9684c6e1abaaef75dcc1590490df12be086a4af790"
+          },
+          {
+            "path": "pnpm-lock.yaml",
+            "size": 17780,
+            "sha256": "9cc95460ae15b8bdadf8a73c35b4c41b60220c5f7cef515c6298d46e0d08a3f4"
+          },
+          {
+            "path": "pnpm-workspace.yaml",
+            "size": 47,
+            "sha256": "7031dd4adf2b413eab35d5915e0130726eb933f5c6776ab0473a31631d79e4f8"
+          },
+          {
+            "path": "public/app.js",
+            "size": 119440,
+            "sha256": "444821a94e8c7d3f222bcf0640cb7d482fc8498cded360f172f14e978767c6df"
+          },
+          {
+            "path": "public/index.html",
+            "size": 27946,
+            "sha256": "d7d5b5e484cce3356b5b45f3fb797ac332a4d7af8ca42ad284aef093d11e21b0"
+          },
+          {
+            "path": "public/styles.css",
+            "size": 40235,
+            "sha256": "35d1b99fa7910e5edbfd2cafbd567d99386be949af2b8c29ba4fbd016d4b7ed3"
+          },
+          {
+            "path": "README.md",
+            "size": 13992,
+            "sha256": "eba189808e9a8d030294ef41c041ebd1492d598bf33a481f107b18e1d304ebde"
+          },
+          {
+            "path": "scripts/apply-beta-singbox.ps1",
+            "size": 3500,
+            "sha256": "dc622a706b3f52d8e53f0b13064fbe74ba59541c77622f285af19c7f3ab54467"
+          },
+          {
+            "path": "scripts/apply-n1-singbox.ps1",
+            "size": 16151,
+            "sha256": "ba57081d38ac636ab343193e2d9f10c319adf0358049fa7977c48aba54eefbe9"
+          },
+          {
+            "path": "scripts/audit-compose.mjs",
+            "size": 433,
+            "sha256": "3880744d68f1f81a9aabaca8233b7e1c627ee1432ab8854042e2a50d7ed5990f"
+          },
+          {
+            "path": "scripts/audit-release.mjs",
+            "size": 319978,
+            "sha256": "24718ace474f901d23e11bb59bda415bbe0f789521163fe2c325e1f0d0d896aa"
+          },
+          {
+            "path": "scripts/build-owner-lock-addon.mjs",
+            "size": 11131,
+            "sha256": "9a00ff96e0a1da0d8eb90a904c4d0eb38d3718f9feb9e13e330aca8e8690e449"
+          },
+          {
+            "path": "scripts/build-release-bundle.ps1",
+            "size": 20939,
+            "sha256": "f8cc6738e665b1454cfd8ddc84408acda91dd0d6f6dbd105f0641829865c235e"
+          },
+          {
+            "path": "scripts/build-root-guard.mjs",
+            "size": 5981,
+            "sha256": "26816c7256dd9d4229389bdf4d73d9edaea4a18bc62fe4a6339b6031f7c31c11"
+          },
+          {
+            "path": "scripts/build-sftp-service.mjs",
+            "size": 2355,
+            "sha256": "ac196ac979f206df5398f7b1246e3f5c3f3a85c11b25fb20a0a1399dcf201de2"
+          },
+          {
+            "path": "scripts/ci-verify.ps1",
+            "size": 1193,
+            "sha256": "e85149a409607019b7d7bf4a8d2b23d884d86984c8ed85749dff31085094e0de"
+          },
+          {
+            "path": "scripts/client-trial-runner.mjs",
+            "size": 14221,
+            "sha256": "8fbf0560da51baa86043b302761de9eea30523056422b1aab07db547833dc722"
+          },
+          {
+            "path": "scripts/create-trial-t-key.mjs",
+            "size": 7291,
+            "sha256": "e2178ecaa8389e1c9c82960f52f303c4ab73ccc8d88b0c8891cf56be234b9a5b"
+          },
+          {
+            "path": "scripts/deploy-n1.ps1",
+            "size": 26403,
+            "sha256": "f446726f87ee9659fbaa66b42ad2ed9ecf485d5c10c3116f5ed73738586cb2ef"
+          },
+          {
+            "path": "scripts/deploy-n1-appliance.ps1",
+            "size": 2785,
+            "sha256": "3b7d522f8f608c28a804766244683c4b677a1de845f5ff6ab8e10405c0320500"
+          },
+          {
+            "path": "scripts/internal-trial-assistant.mjs",
+            "size": 21797,
+            "sha256": "519453ccbdaa8293db11b8ef0ee083f15360b57557557f67141437cd0b140155"
+          },
+          {
+            "path": "scripts/lib/build-fingerprint.ps1",
+            "size": 4775,
+            "sha256": "015677ae701b606fbbdd52a79d80a9b580b6e8fe8ccfe7f57eef97793c3fbb48"
+          },
+          {
+            "path": "scripts/lib/composeAudit.mjs",
+            "size": 11042,
+            "sha256": "3cdc6f390ee0fa341c6e72fc71073125cf54f271b41efd68b14800cdc52a7edd"
+          },
+          {
+            "path": "scripts/lib/owner-lock-evidence-paths.mjs",
+            "size": 5717,
+            "sha256": "87b6732edb85d9b24cd2592925405ac7707793f5fde270c5d56d1b568bfc8794"
+          },
+          {
+            "path": "scripts/lib/releasePaths.mjs",
+            "size": 1514,
+            "sha256": "67fab652c5a22f1a1be0da3571d2e6e27dc984e65d4e39a9cd41a05200a3a8b6"
+          },
+          {
+            "path": "scripts/lib/releaseSignature.mjs",
+            "size": 6253,
+            "sha256": "ad3b94445dfe818e630847328804cdd69d2f16514fd587ff667c4e17cb1ae9a5"
+          },
+          {
+            "path": "scripts/lib/release-zip.mjs",
+            "size": 8780,
+            "sha256": "69a7d270e26dfc5abf69dfb2a92c1c5894129f787ba2d1b20d6052ffd683f60b"
+          },
+          {
+            "path": "scripts/lib/reportSecrets.mjs",
+            "size": 2171,
+            "sha256": "76d6c14d2949502dc54b0fd8dde6cee9312201be4bdfb46aa78cc1dd4cc8d9f4"
+          },
+          {
+            "path": "scripts/lib/report-secrets.ps1",
+            "size": 3093,
+            "sha256": "0d3560c42ab8b37c6a7f3a6e7a1293f89542eac4b3f5925f126159755a95ce4f"
+          },
+          {
+            "path": "scripts/lib/runtimeContracts.mjs",
+            "size": 131810,
+            "sha256": "c8fafea9714635797ee0cb6c145b08f92d65ad6654cfb8ebb6b0540fed45054a"
+          },
+          {
+            "path": "scripts/package-native-runtime.mjs",
+            "size": 9175,
+            "sha256": "aaf4335d365c3a5136a77674b21012a2a3c87f58fab04460994bd80bcbf171c9"
+          },
+          {
+            "path": "scripts/package-relation-runtime.mjs",
+            "size": 12108,
+            "sha256": "970ea8a9448058c00e2a6170cac9e2370c3151737dcfa6e422b4943f1d287c68"
+          },
+          {
+            "path": "scripts/package-sftp-relation-runtime.mjs",
+            "size": 8794,
+            "sha256": "d733ef7bbdf3e22de022562c5d4f2a7f9642da1edcf616f41d658c03f2500fef"
+          },
+          {
+            "path": "scripts/pilot-summary.mjs",
+            "size": 26805,
+            "sha256": "dc112c3a7e5c3b68988a0db6f5dc3d52c39df2e75ca847771071d24391a94b33"
+          },
+          {
+            "path": "scripts/post-deploy-n1.ps1",
+            "size": 41654,
+            "sha256": "5e649b7fb31fec8d3b968984a764185dd03b98796b5ff4a65414944342b2eb90"
+          },
+          {
+            "path": "scripts/preflight-release.ps1",
+            "size": 13483,
+            "sha256": "46fdaca31a8b3e4612c8cf5ec609911f8acf1376f33996ef532ff0b452521156"
+          },
+          {
+            "path": "scripts/prepare-internal-trial.mjs",
+            "size": 9398,
+            "sha256": "47d6e2e092f421781c4d6b5d2dd731edaf7b9f710f417d9f1e3c202bb50e86e4"
+          },
+          {
+            "path": "scripts/prepare-pilot-wave.mjs",
+            "size": 15208,
+            "sha256": "d334e2957b63ed4af6941b6efa340e0cbffc0441a84b44f3becb716c32e3d175"
+          },
+          {
+            "path": "scripts/probe-linux-marker-immutable.py",
+            "size": 48569,
+            "sha256": "811ac7fe3e5a1ae9de93d44644398e5663eecd6c3a200d682759942b140d41e9"
+          },
+          {
+            "path": "scripts/probe-linux-sftp-marker-protection.py",
+            "size": 58313,
+            "sha256": "6793deacdec932e6cbe69c9206f565b3ba0b7c36e07207a3d1dcfaec2f9c5382"
+          },
+          {
+            "path": "scripts/probe-sftp-adapter.mjs",
+            "size": 61299,
+            "sha256": "f43f0c89a31a164ea316cb7eabca98fde63b700e792689babb452e77c76f2d9e"
+          },
+          {
+            "path": "scripts/probe-sftp-auth-proxy.mjs",
+            "size": 46539,
+            "sha256": "91986d287d61a7f0d4a9c5da9f0623e69958ea272bdc019d148f7c5bd6d44303"
+          },
+          {
+            "path": "scripts/probe-sftp-relation-isolation.mjs",
+            "size": 25847,
+            "sha256": "ccb161d50817d6281bcfbde542dc91fe4b443967dd4e404e95bfd883f9d64812"
+          },
+          {
+            "path": "scripts/probe-sftp-reserved-paths.mjs",
+            "size": 24230,
+            "sha256": "f2ba97c6913d5a772bb773937fb8d1799aecd18129f3628d16451ee421c4ea5a"
+          },
+          {
+            "path": "scripts/probe-webdav-adapter.mjs",
+            "size": 50325,
+            "sha256": "eac66e50bc143708a5b7294484d6ab82d3a88d7214f503a2a16c27226f0913a6"
+          },
+          {
+            "path": "scripts/record-internal-trial.mjs",
+            "size": 15166,
+            "sha256": "557490ab3b57ba22a263a10e3cb61c0f293a6917cd36e6c257bf5bb674aac6cc"
+          },
+          {
+            "path": "scripts/release-signature.mjs",
+            "size": 5974,
+            "sha256": "afb9a8c5ae42d91a7c4cafe79094d446fdf49b6c10209f4dc8fc56a37f1a14b9"
+          },
+          {
+            "path": "scripts/release-status.mjs",
+            "size": 12521,
+            "sha256": "d69942f349b53eab709270b77d4e98c8ef0573fda22622945cdc3653f4634e73"
+          },
+          {
+            "path": "scripts/seed-doc-screenshot.mjs",
+            "size": 6056,
+            "sha256": "2081c1337bef356096d67d47f03c67136c9d56a661e7cc9bc0e95404640ef1a9"
+          },
+          {
+            "path": "scripts/smoke-client.mjs",
+            "size": 11546,
+            "sha256": "b0484a87bb8ceec4c67635f261df794dcbc2eff112165369b332b55598fdc167"
+          },
+          {
+            "path": "scripts/smoke-client-package.mjs",
+            "size": 29017,
+            "sha256": "a5386b8fcc7f90f4ee2598f9af6ada927d92adb03c1993e64d7b8993ff4ee6e8"
+          },
+          {
+            "path": "scripts/smoke-electron-e2e.mjs",
+            "size": 29368,
+            "sha256": "7784b39806ff405aa90cc6a721c5b744253c010c8027c953ee6ac59157cab759"
+          },
+          {
+            "path": "scripts/smoke-electron-window.mjs",
+            "size": 13721,
+            "sha256": "a5caadc94836a6f5de8a8498947c84122db910916c0ef6f174ef45811df27b93"
+          },
+          {
+            "path": "scripts/smoke-server.mjs",
+            "size": 27836,
+            "sha256": "d26f2a8db4b72a5cfd62938615f579f956c2805fd385689de614349149f964ad"
+          },
+          {
+            "path": "server/.env.directory.example",
+            "size": 364,
+            "sha256": "f1c52120d2f9b84ffbf33d06e9223857351ebb19036cd91a852569578a0f1d0a"
+          },
+          {
+            "path": "server/.env.example",
+            "size": 1020,
+            "sha256": "c26016e2b2f4854249b82523bb45c823cb939d748dce204fdf08051c5a39a4bb"
+          },
+          {
+            "path": "server/appliance.Dockerfile",
+            "size": 2739,
+            "sha256": "8c4c70648f9d86923fcfa12b3ec6d284111ac66d8b80f64c9bc85e50a8ffc142"
+          },
+          {
+            "path": "server/Caddyfile",
+            "size": 194,
+            "sha256": "6aa7d8202908fbb5123058eae8a62cb120f11df27c34a35aef102c9e6ac45399"
+          },
+          {
+            "path": "server/DEPLOYMENT.md",
+            "size": 7178,
+            "sha256": "70f977790f3f5a8aecc878605be226d225766f449155b87cfc467fdcff338636"
+          },
+          {
+            "path": "server/docker-compose.n1.yml",
+            "size": 3684,
+            "sha256": "1fa8025c1c167217ad28d1c32b6347cd3688cd390373e7fbe2b9a3fd818fc052"
+          },
+          {
+            "path": "server/docker-compose.yml",
+            "size": 4186,
+            "sha256": "6004665a505fcf1cc533f946799ef1278b2a9b30cc2fca2cd4b403dfc56d645b"
+          },
+          {
+            "path": "server/Dockerfile",
+            "size": 802,
+            "sha256": "d2a4215f3ddef3d5d53187c0f5950329e6812d8dd4bea1a05583cb1e290b0868"
+          },
+          {
+            "path": "server/install-n1-appliance.sh",
+            "size": 1707,
+            "sha256": "9b375c3ad3bfb0887a04906b8d9fda7fdd57beaddc5eab3b351c574b8f000c8f"
+          },
+          {
+            "path": "server/install-n1-directory-appliance.sh",
+            "size": 11992,
+            "sha256": "6c7b0ab354c97f258ad1617a0d12eafaa9dccdfd9f0d6da9308003667a6a7af4"
+          },
+          {
+            "path": "server/README.md",
+            "size": 4561,
+            "sha256": "18ee424226cc4f3e92a7875e8177313701c952c889b78b44cd976ab5fc686390"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/dependencies.d/sfsc-singbox",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/finish",
+            "size": 521,
+            "sha256": "4fece9863bdea1c8cae4858745413b863eb93bdc3d9a9743953e24bc8d81cac4"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/run",
+            "size": 536,
+            "sha256": "1cc6b02ffa6a90234618921286cc3ed9780fc0e54e18501172db031965a412ba"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/type",
+            "size": 8,
+            "sha256": "d0001a150b83f68f09004c5059045cb76a3f064eed4d42ce072bc3722c118006"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-singbox/run",
+            "size": 196,
+            "sha256": "e5fb9f6acd8d82fb27fcbc4aa858c6737e8f32c3ba9713b2ded51a6fb0e2359e"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-singbox/type",
+            "size": 8,
+            "sha256": "d0001a150b83f68f09004c5059045cb76a3f064eed4d42ce072bc3722c118006"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/user/contents.d/sfsc-node",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/rootfs/etc/s6-overlay/s6-rc.d/user/contents.d/sfsc-singbox",
+            "size": 1,
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/manifest.json",
+            "size": 314,
+            "sha256": "51c680667efd3cecbe11f87b2bd8a886e26edbed45d6cb9c4fe5c4feffb4c613"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/manifest.json",
+            "size": 486,
+            "sha256": "17e57bd3c753a55fdccc0be6b14a02736923f38714e7881c53a5f527876b3864"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/sfsc-relation-supervisor",
+            "size": 3729529,
+            "sha256": "67c5e8b2aed052c908eb6a789db4e0e5aaffdbac6506ee05e76cda993985e9ba"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation/sfsc-root-guard",
+            "size": 3536944,
+            "sha256": "a01a75e1991c01d2e28fc7f98b0983789dbc73099f5bdd4043c6f41eb22756a1"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/manifest.json",
+            "size": 680,
+            "sha256": "dd699246bf02cb44b291b543dfa72174a75966473b59a51872e5b2bca30299bf"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-relation-supervisor",
+            "size": 3733811,
+            "sha256": "70441080a62b4281516c02a6d23d9925b7427a5b3b2d34e3a963bdfcee6a03a4"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-root-guard",
+            "size": 3543319,
+            "sha256": "fb9506a5449db95da53b1c225241517efde2ae695517e6a177139ee0ebd5bab5"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/relation-v2/sfsc-sftp-service",
+            "size": 6632706,
+            "sha256": "57bb9bb1ada629fc59328ab25a8391d502036989d6dc349a8590c5ea17589023"
+          },
+          {
+            "path": "server/runtime/native/linux-arm64/sfsc_owner_lock.node",
+            "size": 79024,
+            "sha256": "2d6ea2c63f7eedb8b2e3ecc95ef00499e6f8fdd4ae31125adb76c3f43462dd97"
+          },
+          {
+            "path": "server/runtime/runtime_epoch_ledger.py",
+            "size": 38612,
+            "sha256": "e484281bb05543bd22e22c4026137898f7696f05875a0baddb4aedfc29979853"
+          },
+          {
+            "path": "server/runtime/sfsc-runtime-launcher",
+            "size": 67687,
+            "sha256": "f66974896d620d55f09a7d4c3a52f54e7c57e482617415cddb60a7c665d536c0"
+          },
+          {
+            "path": "server/sfscctl",
+            "size": 3304,
+            "sha256": "435a17d7cde2462d6b83946e1dc28a3ca747652e9e82c1ce089514da5a244c68"
+          },
+          {
+            "path": "server/sing-box.Dockerfile",
+            "size": 550,
+            "sha256": "6782f34cc0bbdf76a665f8d95bf8a8751d91db83da56a9fff3a2d6d9a1fd3b39"
+          },
+          {
+            "path": "server/sing-box/config.example.json",
+            "size": 456,
+            "sha256": "553927e1230c316b46440fc7945d5fae974941c7c94ca4d973f9ddff9d2ea716"
+          },
+          {
+            "path": "server/sing-box-supervisor.sh",
+            "size": 3706,
+            "sha256": "e1de3952486ccfc68c50fa38c20b50ba5bd4c43dccde47c3876de4a346506c79"
+          },
+          {
+            "path": "server/systemd/sfsc-appliance.service",
+            "size": 1131,
+            "sha256": "7c31f11fc031b8b7c326497ffb819516be5ce2dcdfcf7785a16b82603ecebac9"
+          },
+          {
+            "path": "server/systemd/sfsc-appliance-directory.service",
+            "size": 1278,
+            "sha256": "37e5cffc24765f38aa79be32edcbf47373fc45c6d8efd7cb2ba708b78f4daf62"
+          },
+          {
+            "path": "server/systemd/sfsc-directory.env.example",
+            "size": 284,
+            "sha256": "4adaf8db9b121cfd9c2bde8e48748b5e097f22b58ce9314cc1a0677f1904ea6b"
+          },
+          {
+            "path": "server/systemd/sfsc-minio.service",
+            "size": 721,
+            "sha256": "07a325ac9dc056e24ab5a7ed9d00eeb31bddca75c36f940742e015278006c38b"
+          },
+          {
+            "path": "src/core/applianceHealth.js",
+            "size": 5827,
+            "sha256": "06e0bb280b16dcadf0d62df1ff7ddaf990bc02cb945dae2ba547ebe56bc32414"
+          },
+          {
+            "path": "src/core/bandwidth.js",
+            "size": 3398,
+            "sha256": "0fbf35f5e8ec5f31283bb25002c5dbdb6edb5c24ce5f01c9e43194d588fb8f92"
+          },
+          {
+            "path": "src/core/channelImportCode.js",
+            "size": 3677,
+            "sha256": "a60564e57071dc67f290ddce485a3e2496be3043d444368ea4bbdc4950dedbc6"
+          },
+          {
+            "path": "src/core/claimProtocol.js",
+            "size": 3635,
+            "sha256": "54f4c44cfed673bfc1cc369b0b732619f112f8ebc14784227756ec874b581a6f"
+          },
+          {
+            "path": "src/core/dataAuthorization.js",
+            "size": 12703,
+            "sha256": "803d228aec2d3a37162575c0b1e9dfdec07c5627cdc5099abc1f6a9fd094d346"
+          },
+          {
+            "path": "src/core/diagnostics.js",
+            "size": 6124,
+            "sha256": "198768185f646deb0f29946d232e28a8299a74b0f26b61a668c6a8b08bedea3f"
+          },
+          {
+            "path": "src/core/directoryRootGuard.js",
+            "size": 40074,
+            "sha256": "f14a8cb9b950397729cf5317bb7996b9b5791b911cd304a0da5e896145ad0a8e"
+          },
+          {
+            "path": "src/core/enrollmentAuthority.js",
+            "size": 34615,
+            "sha256": "d419fa420fd11ccabd126671f2f65f4c04610b9b0131110b75913dc72fba4c75"
+          },
+          {
+            "path": "src/core/enrollmentProtocol.js",
+            "size": 34290,
+            "sha256": "b32ac12df7773676259038f72b642746e771eec1acf61c3fafd8e5fc7abac786"
+          },
+          {
+            "path": "src/core/errors.js",
+            "size": 17068,
+            "sha256": "9138cf29c38e6528e8d7fba1140e754cefaeff1a8b86b2f67c09a06209d4c36c"
+          },
+          {
+            "path": "src/core/heartbeatAuth.js",
+            "size": 3375,
+            "sha256": "8ca2e37b4bce26ff50170168aa7950e3c1c42f698337c25e6adb3db4d38dcc38"
+          },
+          {
+            "path": "src/core/httpJson.js",
+            "size": 1319,
+            "sha256": "2b9548aee6b5b884bdcdb002694e7590ed6597e31d5ec115ac57c7b0ae077274"
+          },
+          {
+            "path": "src/core/index.js",
+            "size": 2866,
+            "sha256": "2fe68911994ef3842282f59a0044096063fde48d7d7ca3f8a69b8ba96043e10f"
+          },
+          {
+            "path": "src/core/linuxImmutableHandle.js",
+            "size": 42172,
+            "sha256": "b047b333fd1366466eb7c903ca07e7c6088b19a0240fd9031fdd5de1a6258be3"
+          },
+          {
+            "path": "src/core/linuxRelationFileServiceRuntime.js",
+            "size": 53736,
+            "sha256": "c56218b7b569ca263c2a7022db934322b77eced017c625cd0c55afe430301f2c"
+          },
+          {
+            "path": "src/core/minioPolicy.js",
+            "size": 2261,
+            "sha256": "d7090dc5db42df7ea8459537c83a51aa90c392ac4be7298af4cc039bf4f44f88"
+          },
+          {
+            "path": "src/core/numbers.js",
+            "size": 1312,
+            "sha256": "ead62b85a061a0ce9a5b8c215b6cb5be4f8ddfff8607b32fdfce9ca30b936356"
+          },
+          {
+            "path": "src/core/profileProtocol.js",
+            "size": 14151,
+            "sha256": "c76dd37cd636ca480651f9e0abf45d5ab9654bca36224150ccf86cb445d3de83"
+          },
+          {
+            "path": "src/core/protocolSchemas.js",
+            "size": 38681,
+            "sha256": "2865ca9cb65222454f6afa912cfc0418011fc778acf1fd51c9eda930c8efed4d"
+          },
+          {
+            "path": "src/core/rclone.js",
+            "size": 14377,
+            "sha256": "caa9584308c2916f2803b879d33a1b84fcd274a2d8e9a1654645777259282a74"
+          },
+          {
+            "path": "src/core/relationFileServiceManager.js",
+            "size": 158983,
+            "sha256": "0ed0db4febb52a87c85ee18357df644f2cb31ffb5dbfd8e719ebb729a73ae1ee"
+          },
+          {
+            "path": "src/core/scheduler.js",
+            "size": 2280,
+            "sha256": "b8e4011c262538ff426c0c6cca565d1659aefa643652c6d587571613f8a3c3a2"
+          },
+          {
+            "path": "src/core/serverAdmin.js",
+            "size": 79397,
+            "sha256": "8e90ab3c8aef17217d8dd7a07af1122559cece8b295615bd24d3d9a3293648b3"
+          },
+          {
+            "path": "src/core/serverFolder.js",
+            "size": 1253,
+            "sha256": "d347815a304ce2bb54771e2cca78148bcbda773f8bbc39b27c4bde0b30058e0b"
+          },
+          {
+            "path": "src/core/serverStateLock.js",
+            "size": 9469,
+            "sha256": "7a7c82c491e40b966b283f5cf0364d77c94f176d4018d1fc4934e5e1b0111fee"
+          },
+          {
+            "path": "src/core/setupReadiness.js",
+            "size": 5998,
+            "sha256": "dfabd2f53d495da818b143821c0a42d5fa7ff5fa688d283d3e3dc20a60fd0eb7"
+          },
+          {
+            "path": "src/core/singbox.js",
+            "size": 2381,
+            "sha256": "c7942db572f186c7d6d1837f8de5f4efe616b849aad207f7510edc3a1745d859"
+          },
+          {
+            "path": "src/core/singboxControl.js",
+            "size": 3185,
+            "sha256": "7eb4fb22001093d224eb37e5351bd046b918ac3a467ba8e3e57f6160875a1bd0"
+          },
+          {
+            "path": "src/core/storage.js",
+            "size": 9083,
+            "sha256": "70c10b3750c2feecb4608b4cf262ed63c087703c39ef4a037c97969de9ccf8d7"
+          },
+          {
+            "path": "src/core/syncEngine.js",
+            "size": 1455,
+            "sha256": "18ee39b53f0db9e5e608353623b04ec2b455a8c2563d38b04583913065d34c4d"
+          },
+          {
+            "path": "src/core/syncRun.js",
+            "size": 10377,
+            "sha256": "871bae434e9622b1b3cc7d196e3acb63a4d2d8421645ce164b24afbbb60331cf"
+          },
+          {
+            "path": "src/core/syncSafety.js",
+            "size": 1792,
+            "sha256": "40b97610152cf6bb0e56ec39c45ec0edfa785ffdf4c406088d01a64f330a641d"
+          },
+          {
+            "path": "src/core/syncSpaceMode.js",
+            "size": 3320,
+            "sha256": "88c07bb409df30fa0d9b720122116484c4b0ecd15e9fd4c22f32839cb7cd4588"
+          },
+          {
+            "path": "src/core/vless.js",
+            "size": 1782,
+            "sha256": "4b54517ca9429e51136c0dd23dfaab4462811450772c47fb77013d4de1a05f95"
+          },
+          {
+            "path": "src/minioProvisioner.js",
+            "size": 7149,
+            "sha256": "d16d1f1966c6df122f1b1fb57d86768ee569bb204361e7e985aa762ad84bc560"
+          },
+          {
+            "path": "src/server.js",
+            "size": 98490,
+            "sha256": "c0f0b24a8e1a115ac2df70e54b5231b16581b21ec1b3febba9e3d5e23aa5e710"
+          },
+          {
+            "path": "src/service/enrollmentBootstrapGateway.js",
+            "size": 7300,
+            "sha256": "b5fd9892d5109c4ea2edb6c3291b07d91dbea84ce586d79121563bf4ae0db073"
+          },
+          {
+            "path": "src/service/enrollmentBootstrapIssuer.js",
+            "size": 15110,
+            "sha256": "68d8a09f6d3cf5153831259c517ca4310318b7ca0f92981ef2c1b34c1ca5fd4a"
+          },
+          {
+            "path": "src/service/enrollmentDataAuthorization.js",
+            "size": 26118,
+            "sha256": "0f9eb500c894ee4c1ca03ffab90cd74b4053147f86127579f3dfd23af83d9579"
+          },
+          {
+            "path": "src/service/enrollmentReconfigure.js",
+            "size": 17771,
+            "sha256": "a850044e3f8827d0fb47fe099fa7869aca38826f4e143ca03d5a0f27bc279063"
+          },
+          {
+            "path": "src/service/enrollmentRevocationService.js",
+            "size": 16339,
+            "sha256": "4d76f74335b30d0455a2eb70305b2d2cded7bad2477152ec8b1dc995882e8a8e"
+          },
+          {
+            "path": "src/service/enrollmentService.js",
+            "size": 51868,
+            "sha256": "013849cd238c37011fc1110c147ecf446bddfd943a6ec9cf36cc291e0c9066bb"
+          },
+          {
+            "path": "src/service/ownerAdmission.js",
+            "size": 1938,
+            "sha256": "25b0e8519317194d77ee6e3f73e878693eafa3b70480f5f073ea7c250dbc54d8"
+          },
+          {
+            "path": "src/service/ownerAdmissionCore.js",
+            "size": 15747,
+            "sha256": "7b5166c90e8dcf9c644924dc9d2992b4f7c1cbae04a3c94de3b6725f1904e1e7"
+          },
+          {
+            "path": "src/service/ownerLockBinding.js",
+            "size": 6383,
+            "sha256": "6a6f13234a37fbf927fdaf95843df96ea6bc50425bc44dd40f6e7ec303f53f32"
+          },
+          {
+            "path": "src/service/ownerLockCompatibility.js",
+            "size": 3228,
+            "sha256": "5c4b4f39af9620f1b2015f4d2b7d9e8170acfd8e58ee4e172ee28faa3837d11d"
+          },
+          {
+            "path": "src/service/ownerStateSnapshot.js",
+            "size": 1517,
+            "sha256": "d0467a760de7257ebe8e02222fa37b5d8e8032c9340c995b774abdcdf4edd340"
+          },
+          {
+            "path": "src/service/realityTransportProbe.js",
+            "size": 9424,
+            "sha256": "74bf0f44481787045ae34cc408ee57cd084a1f250819d9f0aa125e8a80cb96e5"
+          },
+          {
+            "path": "src/service/relationRuntimePackage.js",
+            "size": 12394,
+            "sha256": "d82f20927a051e21524f8407a061afd082059fd20823fecc2be6d1fb4f56e7e4"
+          },
+          {
+            "path": "src/service/relationServiceBindingCatalog.js",
+            "size": 53004,
+            "sha256": "ea853cda8d9d923eefb441907e2704bb93f0964038a6757726b0486f579f6064"
+          },
+          {
+            "path": "src/service/relationServiceProductWiring.js",
+            "size": 22847,
+            "sha256": "2c0dc4db1be0698d71a2ae5bedab22e159f50e247a455137195cd0a36e3d37d9"
+          },
+          {
+            "path": "src/service/relationServiceStartup.js",
+            "size": 8072,
+            "sha256": "b2eae32b3df5e9aa868de1ed54199450d573862edf201a9f7246ea4387313b2d"
+          },
+          {
+            "path": "src/service/runtimeRecoveryTransaction.js",
+            "size": 31547,
+            "sha256": "244571a2ad79b0f304de29588a49129daec026725170474af40a210494d37d99"
+          },
+          {
+            "path": "src/service/sharedDirectoryService.js",
+            "size": 11242,
+            "sha256": "e29811f2d69784920d1b504192086472b16ebc896e7c194dc466603c61186481"
+          },
+          {
+            "path": "src/service/startupAdmission.js",
+            "size": 22495,
+            "sha256": "d070eaf309c2b97dfe910270e8d6d5ff834e67dac5d1d11bdf893f9de930c79f"
+          },
+          {
+            "path": "src/service/startupMaintenance.js",
+            "size": 14874,
+            "sha256": "fd4c42b5043101a6a98a59bf801443b337d4203d3702293b6f1cd905a2726bd6"
+          },
+          {
+            "path": "src/service/startupMaintenanceCli.js",
+            "size": 21642,
+            "sha256": "aef64a01a57bd6b3ca1a8a8d05b8b71fc9b28276927edd175faec646d02b7b15"
+          },
+          {
+            "path": "src/service/startupQuiescenceStateParser.js",
+            "size": 48256,
+            "sha256": "9d2a3b191bb4fa96becd1bf76edba7d4926a863ec30424e1482b2baaaa2c6ca9"
+          },
+          {
+            "path": "src/service/startupRecoveryPermit.js",
+            "size": 14275,
+            "sha256": "3a7516919a7a7ad36e98277377da907759d20747c1115af474c672f1e834a6db"
+          },
+          {
+            "path": "src/service/strictStateJson.js",
+            "size": 13306,
+            "sha256": "c293d222cdee19f33b87b6bfb2cd91df2b64af1b3db6b0236ebb508560a026cf"
+          },
+          {
+            "path": "tests/appliance-deployment.test.js",
+            "size": 6472,
+            "sha256": "e44b457d18e10dbe078f69a1114914bbe3ca37b8edef1225b3edf688c034a77b"
+          },
+          {
+            "path": "tests/appliance-health.test.js",
+            "size": 2970,
+            "sha256": "f4f0021ef4a355ec35261c73b8c3bf5dac049cbf5d38e8f480fd6c48313f9902"
+          },
+          {
+            "path": "tests/client.test.js",
+            "size": 210518,
+            "sha256": "58d5e64dad74ad5dad1c9307e901ec137b781639315a2051549abad5d6d3c238"
+          },
+          {
+            "path": "tests/client-auto-retry-policy.test.js",
+            "size": 7643,
+            "sha256": "8710889915fbc4c6615395c7a3016803ae65e3b18b132ad12382d7049010adb9"
+          },
+          {
+            "path": "tests/client-connection-repair.test.js",
+            "size": 4857,
+            "sha256": "0acb9bfba36aee1dc4efa868da277c26f1e38ad4a0494a82befd98c4ac46c24a"
+          },
+          {
+            "path": "tests/client-enrollment-relation.test.js",
+            "size": 13950,
+            "sha256": "64616d9d79ccd41f5d4ce3b8fc8acfec8cbeb0c95cf1550d84d785638a26bcd8"
+          },
+          {
+            "path": "tests/client-enrollment-session.test.js",
+            "size": 33707,
+            "sha256": "fb87f4f5ff724362888ff4e9f2d4fce84b8ad88918234bbb63ee8470e2fdee10"
+          },
+          {
+            "path": "tests/client-enrollment-status-contract.test.js",
+            "size": 1710,
+            "sha256": "059c341159096c93a13121e13c3d729372dc8e2aef4ee6f431f1a55596a8de2b"
+          },
+          {
+            "path": "tests/client-first-bisync-conflict.test.js",
+            "size": 10333,
+            "sha256": "69aeba00f95f5b0d6034d4ff9f38df562a04d1b2c50075180e5787a021a535ec"
+          },
+          {
+            "path": "tests/client-http.test.js",
+            "size": 297716,
+            "sha256": "a4777b105b2725f52a0e6ff621f2cb01f98407a1b1ed19c97d988f888d5d85d6"
+          },
+          {
+            "path": "tests/client-live-state.test.js",
+            "size": 16350,
+            "sha256": "e863e76d6c15b59f9fd5a7a348a1fb6fe6a2ce02a0deaea7fec47e529d6e7fa7"
+          },
+          {
+            "path": "tests/client-marker-error.test.js",
+            "size": 4802,
+            "sha256": "e7d80e97296632d437e68ea56d0dfcb9ceb1a49ccb182bb29fdbc8263b822710"
+          },
+          {
+            "path": "tests/client-sync-recovery.test.js",
+            "size": 23787,
+            "sha256": "f7ca92768093aecef72289a28a17245b028513d0e891fcfaa36801f616658fc5"
+          },
+          {
+            "path": "tests/client-sync-relation.test.js",
+            "size": 36408,
+            "sha256": "f388239b6a274879d3467dff108948b04d10b5f1098613eab625ea338e23d522"
+          },
+          {
+            "path": "tests/console-first-run.test.js",
+            "size": 6405,
+            "sha256": "c4164dc692d5eefc3fc6b7b0d0a59419ffaf46d4326d1651c702f7127502f18a"
+          },
+          {
+            "path": "tests/console-sync-space-mode.test.js",
+            "size": 3482,
+            "sha256": "14a6f85a7829cd1143573fb1515da61cb0555c707f3d9b1c6f3b3d1d20b2a2ed"
+          },
+          {
+            "path": "tests/contract-http.test.js",
+            "size": 222555,
+            "sha256": "73d9b5420058a0afb3df07b047e72a6f93b5787db8a9692edcc41f807e01c6f7"
+          },
+          {
+            "path": "tests/core.test.js",
+            "size": 724856,
+            "sha256": "9a8b2486c4664eb8453f908bd3a0f41ac25e2b7cc8dd76bc2b4ed93f28b2ea25"
+          },
+          {
+            "path": "tests/data-authorization.test.js",
+            "size": 5939,
+            "sha256": "9bb1edd0f9d0ae2e07181abc959dee46476275410ef6e4e104c1ee99fb3c220a"
+          },
+          {
+            "path": "tests/directory-installer-rollback.test.js",
+            "size": 12434,
+            "sha256": "c54e7dc69107450dc2894a29fc02eb5790aebc76946b964013557b04b0493adc"
+          },
+          {
+            "path": "tests/directory-root-guard.test.js",
+            "size": 23528,
+            "sha256": "202cedb29e223acdeeee2e70d94e8ff78ac9f4b6140e469aa502376604de0437"
+          },
+          {
+            "path": "tests/enrollment-auth-expired-diagnostics.test.js",
+            "size": 8024,
+            "sha256": "45caa014249e69f0a04826af0d66951da766a2a4ac305cce815f8a0463d8fba1"
+          },
+          {
+            "path": "tests/enrollment-bootstrap-gateway.test.js",
+            "size": 6990,
+            "sha256": "fa194671e6e54e8e701a13ac0df2684d9bbcbd5c41e13508c8a78524d94954e8"
+          },
+          {
+            "path": "tests/enrollment-bootstrap-issuer.test.js",
+            "size": 8954,
+            "sha256": "2889da7828e6828ec5f46d23ccaf0a2cbfc3d84f6adaa308093c227f9d87b61d"
+          },
+          {
+            "path": "tests/enrollment-data-authorization.test.js",
+            "size": 18391,
+            "sha256": "95b3ab74eb38a7fef4389b1e7cb51662efe9836ba590effaf4563418212c75a4"
+          },
+          {
+            "path": "tests/enrollment-http.test.js",
+            "size": 70480,
+            "sha256": "b084b65d962c81855bd21995bb1dc90e2d90c643edbf065e43105c6573226f21"
+          },
+          {
+            "path": "tests/enrollment-protocol.test.js",
+            "size": 41377,
+            "sha256": "4905cd247612e722ce0e7dab703ad3519cce9657767dea69f73faac8e13609b3"
+          },
+          {
+            "path": "tests/enrollment-reconfigure.test.js",
+            "size": 10230,
+            "sha256": "e94196eedce90b611855afc7fd8f55ffc55cd8f13de5c0bb8c99e688c701133d"
+          },
+          {
+            "path": "tests/enrollment-revocation-service.test.js",
+            "size": 15741,
+            "sha256": "a599c05c912ed4c7b62718eacb89e6a0106de7833ccddbac23ea5b2a14765243"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/acquire-child.mjs",
+            "size": 1526,
+            "sha256": "1552769d97cc65fb9f8a85c1b033842625e765f0427d5e619d7d842e9bc7767e"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/competition-child.mjs",
+            "size": 2313,
+            "sha256": "ec4c913c851ca7bd1f795b07a47fcb63353c1b0f558248abbb76a2a659a73596"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/exec-child.mjs",
+            "size": 2322,
+            "sha256": "640452a22f5437c6108ad8e58803314203fdb9af7327922b2f955184537dc479"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/fd-leak-control-child.mjs",
+            "size": 1890,
+            "sha256": "2d4f3874546cd3f2bc37b0bbd6cbf7e43f5b77d353388435d7a9d282494c2d1a"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/gc-hold.mjs",
+            "size": 1630,
+            "sha256": "f4c29df4ab9477ae4226c478a28fdd628eb350668d41ccd89e900ef001e2c8e8"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/holder-child.mjs",
+            "size": 16799,
+            "sha256": "3a54ebbef7f92433df916aa6f4ad38dc198738a1c36d9004b2d35ca1cd88e2ec"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/native-worker.mjs",
+            "size": 1220,
+            "sha256": "71807be3d5239113cea4d2777f22da0481ef80d458e616f33ad8b66298f76316"
+          },
+          {
+            "path": "tests/fixtures/owner-lock/worker-acquire.mjs",
+            "size": 743,
+            "sha256": "560ef0aca1ac2a0700a635907196407ab74376c539e75eeec510bdac13aefe97"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/ordinary.txt",
+            "size": 20,
+            "sha256": "b255c5fa9b18a004cd35127442b4a7650cec694bd20cbe02ec525c1aa12b5b75"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/finish",
+            "size": 31,
+            "sha256": "8ed4f94469e2185d06264f96b86d9f02d0002d7dbcc0c873654b77eb6030c265"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/rootfs/etc/s6-overlay/s6-rc.d/sfsc-node/run",
+            "size": 28,
+            "sha256": "7baaa5db1a7e03742a03f691c92c3b43b311e5eede89d963d7f46047b1724500"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/runtime/native/linux-arm64/relation/fixture-native",
+            "size": 12,
+            "sha256": "3bd1c3392f9355129078e71095772d08544f27b7b305633d079e227bcd25d2c3"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode/server/runtime/sfsc-runtime-launcher",
+            "size": 33,
+            "sha256": "ade8c7212a7fa821e16a6627b536c20040f8c44da67aed12fb51419598536e6f"
+          },
+          {
+            "path": "tests/fixtures/release-bundle-mode-fixture.zip",
+            "size": 3252,
+            "sha256": "a6178deb5c6f2a50cb07d1e7e119d53d6641211a53dc7d78835ab5034c3ac365"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-four-actions-real.json",
+            "size": 22044,
+            "sha256": "701b9710d59f0ed92530952712ad0fac5ec90b0a615fd6c9c498efae602f91dd"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-real.json",
+            "size": 22044,
+            "sha256": "701b9710d59f0ed92530952712ad0fac5ec90b0a615fd6c9c498efae602f91dd"
+          },
+          {
+            "path": "tests/fixtures/v2-ack-ledger-third-run-real.json",
+            "size": 9919,
+            "sha256": "bcebf7c7addc7caeb057eb991a3f045566775ed0074a8c92630382db77eab3da"
+          },
+          {
+            "path": "tests/helpers/contracts.js",
+            "size": 2301,
+            "sha256": "69bf7aa0d953ea0831171d08f7e8adaa03c6fa0928d44984b1eb112b3004d62e"
+          },
+          {
+            "path": "tests/linux-immutable-handle.test.js",
+            "size": 40828,
+            "sha256": "a778472672aec84d35dca517ee8ef841fb8316cebf1673839426e8539edc4d81"
+          },
+          {
+            "path": "tests/linux-relation-file-service-runtime.test.js",
+            "size": 48698,
+            "sha256": "302964a7d3b3b195d97b741ea32716c9d39ed93f2d8958a8342d73b4d7ea4f89"
+          },
+          {
+            "path": "tests/owner-admission.test.js",
+            "size": 9232,
+            "sha256": "6ee0666ab5f171583358dbfc48c335351d0a818ab4c331f85f084beb2fd8ae5a"
+          },
+          {
+            "path": "tests/owner-lock-addon.linux.test.js",
+            "size": 47115,
+            "sha256": "9353d0851d164a73978c1c540808c6c4bbaa893759474a6ac0f43f099aaeded5"
+          },
+          {
+            "path": "tests/owner-lock-binding.test.js",
+            "size": 2581,
+            "sha256": "d3d460eeb341f2e97f35df55475790abb8009af931024cecf40dc3c9a24a4ea2"
+          },
+          {
+            "path": "tests/owner-lock-compatibility.test.js",
+            "size": 3560,
+            "sha256": "a29ca727f58c7bfb317d8077d0f88af5cd818cb779b45cfa77d6fc9b70c35602"
+          },
+          {
+            "path": "tests/owner-lock-evidence-paths.test.js",
+            "size": 5367,
+            "sha256": "7a70568fb7eef0a78cab172c976d08fe72672e9c048a908a5b2dad69f428bffc"
+          },
+          {
+            "path": "tests/owner-state-snapshot.linux.test.js",
+            "size": 41678,
+            "sha256": "b59a7c5a127176914414bac810863bbc1f4fde3467ead0093522053c21c3b4a9"
+          },
+          {
+            "path": "tests/owner-state-snapshot.test.js",
+            "size": 12958,
+            "sha256": "bdc0725e1c5b972de7231edb200aad0756025ae8ad9324751ae3616f10184320"
+          },
+          {
+            "path": "tests/package-native-runtime.test.js",
+            "size": 7740,
+            "sha256": "c060b837af7cd69eb2fe68f0b3bc3a894085df1e082ba15a6019676e3589ba91"
+          },
+          {
+            "path": "tests/profile-v2.test.js",
+            "size": 5238,
+            "sha256": "5e798a484a0f089370443b87aed3f2d719ed3448fcffa1cf612532af1a5138bb"
+          },
+          {
+            "path": "tests/rclone-bisync-safety.test.js",
+            "size": 11145,
+            "sha256": "b15286bbc9c50623017ce5c8432596b266fd8c6bfb6bc811fd616e96e65af9c5"
+          },
+          {
+            "path": "tests/reality-transport-probe.test.js",
+            "size": 9902,
+            "sha256": "40eae71c9d113d26db937a10410c1eee1f0fa695a16d00877bf0c08b2bd63906"
+          },
+          {
+            "path": "tests/relation-file-service-manager.test.js",
+            "size": 176768,
+            "sha256": "eed995e2e2a95b7e19f0665a2aeacbb9f6e46409269c8ac3350b9f93f0fa6d30"
+          },
+          {
+            "path": "tests/relation-runtime-package.test.js",
+            "size": 13811,
+            "sha256": "a002352c9ba6020673f426c6bff55690fcc855f331eb2683229e21051993bfd1"
+          },
+          {
+            "path": "tests/relation-service-binding-catalog.test.js",
+            "size": 30122,
+            "sha256": "5eeb67ae5a5504cf1f9a238cd690397d56eb20e56fbd82d8592d8f07fb0011ca"
+          },
+          {
+            "path": "tests/relation-service-product-wiring.test.js",
+            "size": 25703,
+            "sha256": "4d192aa5c900630bcbe7f5c00115513d492c105b937a13fdbb9f1bb9b24d4d50"
+          },
+          {
+            "path": "tests/relation-service-startup.test.js",
+            "size": 22047,
+            "sha256": "52b0a7df18b169613ce2fd537fd76799efbe23d2dd67b83665848062f5fbe205"
+          },
+          {
+            "path": "tests/release-bundle.test.js",
+            "size": 4713,
+            "sha256": "aa1771a412be62b3fb9d65c93be250b5d5bcbeebbdb6c78dc56db1eb806f657a"
+          },
+          {
+            "path": "tests/runtime-epoch-launcher.test.js",
+            "size": 53681,
+            "sha256": "a05f570817dddbc9b2f020a404396296bf03317f953f4891ba231ef2fad6deb5"
+          },
+          {
+            "path": "tests/server-s3-internal-endpoint.test.js",
+            "size": 5885,
+            "sha256": "2487c8905211c2e867df292342b4bcbb010f6ad56a4ef92480c4655de1265cb3"
+          },
+          {
+            "path": "tests/server-state-lock.test.js",
+            "size": 9167,
+            "sha256": "8cd8f82ffbd6c329ba47384ece9e08fb35569d7cd9d680c8ef846dcb122dc89e"
+          },
+          {
+            "path": "tests/setup-readiness.test.js",
+            "size": 3695,
+            "sha256": "6b25b931e3e404d40e78ff915c9a3e44936143f092fdae61d8d8d1744e12e719"
+          },
+          {
+            "path": "tests/setup-readiness-http.test.js",
+            "size": 4496,
+            "sha256": "78c3dfa41633c85275b98e86e60083adab8a623c07c1fcb2215e82fa0deab86d"
+          },
+          {
+            "path": "tests/sftp-access-marker.test.js",
+            "size": 4799,
+            "sha256": "60b1a30f2b20e3344b950654fa455afe3485c448eee095c3a0b41473514ab220"
+          },
+          {
+            "path": "tests/sftp-relation-runtime-package.test.js",
+            "size": 6888,
+            "sha256": "c2a9d90ee9ffb136292e5e21d51582e4f535205430796ab4385b0e059ac9dbbd"
+          },
+          {
+            "path": "tests/sftp-service-product-composition.test.js",
+            "size": 4600,
+            "sha256": "f320b5a3f51f19d367d2ed25f4bede4f0f21bc3ddff38e3941f542c4b834b7bb"
+          },
+          {
+            "path": "tests/shared-directory-service.test.js",
+            "size": 9359,
+            "sha256": "b8535033c1658d55ca75f9773450eadbe8ca1c2d5d9b194b3d5bff67e78605dc"
+          },
+          {
+            "path": "tests/singbox-control.test.js",
+            "size": 3810,
+            "sha256": "50c0e05f67d4563181b967bf7cd052abb5e816401cdfd64debd29b6a5f6d1fe2"
+          },
+          {
+            "path": "tests/startup-admission-integration.test.js",
+            "size": 49652,
+            "sha256": "e8d350f2bcb39c0a4cceece8ed39e2ebc49df871336dddedfd48a4fea178b5ea"
+          },
+          {
+            "path": "tests/startup-maintenance-entry.test.js",
+            "size": 31108,
+            "sha256": "6f955b88c598222bbb2126e82f8fccf71861a53a38a77faafbdcf220fd61e88e"
+          },
+          {
+            "path": "tests/startup-quiescence-state-parser.test.js",
+            "size": 34701,
+            "sha256": "dc894633bd62d8deb036f320692d74ba2ea74a9e569a3191796abae10818ec7b"
+          },
+          {
+            "path": "tests/strict-state-json.test.js",
+            "size": 9367,
+            "sha256": "f1a279b47285e33455c8848255f8bb9c74735bc01fcfdab706716b732f29dde0"
+          },
+          {
+            "path": "tests/sync-direction-authorization.test.js",
+            "size": 4986,
+            "sha256": "2f8e8089fad4a8af0557bff1a2545c4ca5fca0b69c93e4ba1f12201b6b8ae1af"
+          },
+          {
+            "path": "tests/sync-space-mode.test.js",
+            "size": 8791,
+            "sha256": "19c2c0c2e70870cff2a13d6bf1d22ca3f1298a7e4fe224d5126d08f8332fb254"
+          },
+          {
+            "path": "tests/test_runtime_launcher_capability.py",
+            "size": 5504,
+            "sha256": "9820d76205e4a935b9792f2e613acb0b893d073836bffbaa585b6c912bce5d59"
+          },
+          {
+            "path": "tests/ui-dom-contract.test.js",
+            "size": 46121,
+            "sha256": "a97babc566382efa4e55f949325e655f8cab8d885d65cc467daacab310389894"
+          }
+        ]
+      },
+      "files": [
+        {
+          "name": "Syncraft.exe",
+          "size": 7168,
+          "sha256": "0df5c292fb818627bf84860ac5f0c6612d88262f4e2b122626445128a249263b"
+        },
+        {
+          "name": "app/package.json",
+          "size": 49,
+          "sha256": "9c8a1734dfdab43fa3088385eb24695b4009e5bf12a3229c6e2af5e05f185e52"
+        },
+        {
+          "name": "app/client/src/clientServer.js",
+          "size": 177051,
+          "sha256": "696402db7bc84c011b3af49d72542d3612d7d791bde7b94aa4a95b617966081b"
+        },
+        {
+          "name": "app/client/src/paths.js",
+          "size": 8248,
+          "sha256": "acd39c3a32deb83c81735ac1b852060ce95fd43e98e1a452f490a9f74b953273"
+        },
+        {
+          "name": "app/client/src/store.js",
+          "size": 31398,
+          "sha256": "79359cb273c2b49df65d8dde39253235ad7c6d736bb9add3cb41ce9f22f2033b"
+        },
+        {
+          "name": "app/client/src/enrollmentSession.js",
+          "size": 19060,
+          "sha256": "0c8ace0ad3d80b3de87fdb2583959a7568ea4651708ecdcb5bb8820078696a52"
+        },
+        {
+          "name": "app/client/src/enrollmentDiagnostics.js",
+          "size": 1784,
+          "sha256": "950679b3feae0af38ee43344a84421735c33d643ea7058d9dbf8ac1e3bc81883"
+        },
+        {
+          "name": "app/client/src/sftpAccessMarker.js",
+          "size": 5228,
+          "sha256": "677debae755aafc86012f660d5e87b56c9722d0c8521eae860291b337d878a80"
+        },
+        {
+          "name": "app/client/src/connectionRepair.js",
+          "size": 10517,
+          "sha256": "0fbe2ae1e93450e6f757ef7dc238f6b8c668b8b8c57bdda95cb7633143aaa698"
+        },
+        {
+          "name": "app/client/src/firstBisyncConflict.js",
+          "size": 30191,
+          "sha256": "24a836f7a1500e03b5a0af03773706a98eb6fa0cf80fd9f930b7dab62c37152d"
+        },
+        {
+          "name": "app/client/src/syncRecovery.js",
+          "size": 49055,
+          "sha256": "f8e8eb1313fd852007d0b27b6bf6f2b7b8bbebc4e1f9effc09fd5effa64bd5f7"
+        },
+        {
+          "name": "app/src/core/dataAuthorization.js",
+          "size": 12703,
+          "sha256": "803d228aec2d3a37162575c0b1e9dfdec07c5627cdc5099abc1f6a9fd094d346"
+        },
+        {
+          "name": "app/client/src/bootstrapTransport.js",
+          "size": 8273,
+          "sha256": "6c6725de6e846a5e2f35914de97a3f96047a88749ea15d0f4fc33541055f4125"
+        },
+        {
+          "name": "app/client/src/diagnosticBundle.js",
+          "size": 19918,
+          "sha256": "2e3f022381bcc83d227525b54db0e7ca4a2c2d25e2b3a903c84d2eac3f2e7fe8"
+        },
+        {
+          "name": "app/client/src/processRunner.js",
+          "size": 11435,
+          "sha256": "ea287ab5365fdce3c7a574609f090e7738f12af7a094d085be69b59ead78384f"
+        },
+        {
+          "name": "app/client/src/rcloneStats.js",
+          "size": 9879,
+          "sha256": "4c912fe598ae573511dbd23e91ca46a65a7d333a43e889e02e946f4d05b1c074"
+        },
+        {
+          "name": "app/client/src/profileImport.js",
+          "size": 8505,
+          "sha256": "e273a4da91dceb8a5162e9de20d7d61c971482c12bb29a8940fef8650934129f"
+        },
+        {
+          "name": "app/client/src/launcher.cjs",
+          "size": 2344,
+          "sha256": "3b7ac50d7330671e96db7a6b83bdc6cc44c2ce0e2d54c55a0a0b4853945aa45e"
+        },
+        {
+          "name": "app/client/src/Launcher.cs",
+          "size": 6395,
+          "sha256": "5ea11de3b76e239e777140e3682cf7d2da32d4c6ec353b8559d572adec678f30"
+        },
+        {
+          "name": "app/client/public/index.html",
+          "size": 23684,
+          "sha256": "71b9e474062575de8ad3f216e6780e086ed0bee3fb0257443e40e724f9444abb"
+        },
+        {
+          "name": "app/client/public/app.js",
+          "size": 133924,
+          "sha256": "7ee69d59f60cd46ecc0ced12305689ec65db5f39c523e976ab28498d7df56d75"
+        },
+        {
+          "name": "app/client/public/styles.css",
+          "size": 26523,
+          "sha256": "0a5d33108a5e7555bbb902dd5603cea6079bca1e0885086625e8a82e42490a84"
+        },
+        {
+          "name": "app/src/core/index.js",
+          "size": 2866,
+          "sha256": "2fe68911994ef3842282f59a0044096063fde48d7d7ca3f8a69b8ba96043e10f"
+        },
+        {
+          "name": "app/src/core/channelImportCode.js",
+          "size": 3677,
+          "sha256": "a60564e57071dc67f290ddce485a3e2496be3043d444368ea4bbdc4950dedbc6"
+        },
+        {
+          "name": "resources/app/docs/INTERFACE_CONTRACT.md",
+          "size": 211267,
+          "sha256": "3604916470f17ca1c31b4e761a92e6e79a23a264a781cd068236192a7ae798e7"
+        },
+        {
+          "name": "resources/app/docs/API_MATRIX.md",
+          "size": 30366,
+          "sha256": "7a0739bc7fbd648eb7edfeb072a9bf9c1e5513b963cca0a17ae504dece95a9b9"
+        },
+        {
+          "name": "resources/app/docs/DEPLOYMENT_AND_MIGRATION_GUIDE.md",
+          "size": 49877,
+          "sha256": "6136feaf4031c0f62a821dd90f9378947114bee11efd64c281587e1c7f378757"
+        },
+        {
+          "name": "resources/app/docs/INTERNAL_TRIAL_CHECKLIST.md",
+          "size": 14568,
+          "sha256": "44c18d8187630295217cc42a4081e49b35eb3c8c6c82a3f5cc4144a279cb7447"
+        },
+        {
+          "name": "resources/app/docs/PILOT_RUNBOOK.md",
+          "size": 8587,
+          "sha256": "1b7375d849b25d81b37bce7ea02df39f312f126d815d56ccc9f6105aa13754fc"
+        },
+        {
+          "name": "resources/app/docs/PILOT_ACCEPTANCE_CRITERIA.md",
+          "size": 5352,
+          "sha256": "3cb619061d86b23424978f5e2dfa646f6e9fc3d8235c4556f3f155dd9379b1bb"
+        },
+        {
+          "name": "resources/app/docs/PILOT_SUPPORT_GUIDE.md",
+          "size": 4266,
+          "sha256": "067e48d9ce1e7ccfef10e160d67d17c237af0a5526070ec4ed63a8c1a3413dab"
+        },
+        {
+          "name": "resources/bin/win32/binaries.lock.json",
+          "size": 643,
+          "sha256": "2628eb8458be22d24ac1e1c45a494b88578d34ee94bfafbc29e62951b8070af7"
+        },
+        {
+          "name": "resources/bin/win32/sing-box.exe",
+          "size": 45403136,
+          "sha256": "db0d779948214cf761011d154c3a5da36df20394fa01a9fc798f1dc39fe9d183"
+        },
+        {
+          "name": "resources/bin/win32/rclone.exe",
+          "size": 78717440,
+          "sha256": "3ac0dba3a883555f0c0daabc8a87c8f78e531f339780335e07beadf77734b5bc"
+        }
+      ]
+    }
+  },
+  "assets": [
+    {
+      "name": "SyncraftDesktop.zip",
+      "size": 166886220,
+      "sha256": "9f53d0585110bfbb80f12442c4c714bf95c9cf90d9f6f61f61279b9c8340e3ee"
+    },
+    {
+      "name": "SyncraftDesktop.zip.sha256",
+      "size": 87,
+      "sha256": "ecfb2ab62708f60da61f84980f7c8e589c785db4b8be9dc9214f52de68151d6c"
+    },
+    {
+      "name": "SyncraftClient.zip",
+      "size": 78197685,
+      "sha256": "68cb128fc056d5752dd24ed16dfde749312aaeb4c19e10366c51c51c1765f151"
+    },
+    {
+      "name": "SyncraftClient.zip.sha256",
+      "size": 86,
+      "sha256": "f4c76e5a31094e3694ab052a871bc6667eb5a38ef9dd743d1a99c3c8dfbc8fa4"
+    }
+  ],
+  "generatedAt": "2026-11-09T07:35:48.722731+00:00"
+}
